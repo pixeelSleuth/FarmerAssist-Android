@@ -1,0 +1,1551 @@
+{
+    "Document Info": {
+        "Crop": "MAIZE CROP",
+        "Title": "COMPLETE LIFECYCLE MANAGEMENT GUIDE",
+        "Region": "Dharwad Region, Karnataka - All 9 Growth Stages",
+        "Metadata": "Agricultural Decision Support System | Phase 1.2 Knowledge Base",
+        "Data Sources": "Agricultural Decision Support System | Maize Lifecycle Knowledge Base Phase 1.2 | Data Sources: ICAR, UAS Dharwad, KVK Dharwad, CIMMYT"
+    },
+    "Table of Contents": [
+        {
+            "Stage": "Stage 1",
+            "Topic": "Seed Selection",
+            "Details": "Hybrid selection, seed rate, treatment"
+        },
+        {
+            "Stage": "Stage 2",
+            "Topic": "Land Preparation",
+            "Details": "Soil pH, tillage, FYM application"
+        },
+        {
+            "Stage": "Stage 3",
+            "Topic": "Sowing",
+            "Details": "Timing, spacing, depth, moisture"
+        },
+        {
+            "Stage": "Stage 4",
+            "Topic": "Emergence (0-15 DAS)",
+            "Details": "Germination monitoring, gap filling"
+        },
+        {
+            "Stage": "Stage 5",
+            "Topic": "Vegetative Stage (15-45 DAS)",
+            "Details": "Fertiliser schedule, weed control"
+        },
+        {
+            "Stage": "Stage 6",
+            "Topic": "Tasseling (45-65 DAS)",
+            "Details": "Irrigation priority, stress management"
+        },
+        {
+            "Stage": "Stage 7",
+            "Topic": "Silking (65-75 DAS)",
+            "Details": "Critical water requirement, pollination"
+        },
+        {
+            "Stage": "Stage 8",
+            "Topic": "Grain Filling (75-105 DAS)",
+            "Details": "Potassium, irrigation, nutrient management"
+        },
+        {
+            "Stage": "Stage 9",
+            "Topic": "Harvest & Storage",
+            "Details": "Maturity indices, post-harvest"
+        },
+        {
+            "Stage": "Stage",
+            "Topic": "Decision Rules Summary",
+            "Details": "Complete IF/THEN rule reference"
+        }
+    ],
+    "Stages": [
+        {
+            "Stage Number": 1,
+            "Title": "Seed Selection",
+            "Description": "Choosing the right hybrid and seed quality",
+            "Subsections": [
+                {
+                    "Heading": "1.1 Recommended Hybrids for Dharwad Region",
+                    "Text": "Dharwad district in northern Karnataka receives moderate to heavy rainfall (700-900 mm) during Kharif. The following hybrids are well-suited to local agroclimatic conditions, combining high yield potential, disease tolerance, and standability.",
+                    "Table": [
+                        {
+                            "Hybrid / Variety": "NK 6240",
+                            "Type": "Single Cross",
+                            "Duration (Days)": "90-95",
+                            "Yield Potential (t/acre)": "3.5-4.5",
+                            "Key Traits": "High yield, lodging resistant"
+                        },
+                        {
+                            "Hybrid / Variety": "DKC 9141",
+                            "Type": "Single Cross",
+                            "Duration (Days)": "95-100",
+                            "Yield Potential (t/acre)": "4.0-5.0",
+                            "Key Traits": "Stay-green, drought tolerant"
+                        },
+                        {
+                            "Hybrid / Variety": "Bioseed 9681",
+                            "Type": "Single Cross",
+                            "Duration (Days)": "90-95",
+                            "Yield Potential (t/acre)": "3.5-4.2",
+                            "Key Traits": "Early vigour, TLB tolerant"
+                        },
+                        {
+                            "Hybrid / Variety": "Pioneer 3522",
+                            "Type": "Single Cross",
+                            "Duration (Days)": "95-100",
+                            "Yield Potential (t/acre)": "4.0-5.0",
+                            "Key Traits": "High starch, BLSB resistant"
+                        },
+                        {
+                            "Hybrid / Variety": "Ganga Safed 2",
+                            "Type": "OPV",
+                            "Duration (Days)": "105-110",
+                            "Yield Potential (t/acre)": "2.5-3.0",
+                            "Key Traits": "Open-pollinated, budget option"
+                        },
+                        {
+                            "Hybrid / Variety": "NAC 6002",
+                            "Type": "Single Cross",
+                            "Duration (Days)": "90-95",
+                            "Yield Potential (t/acre)": "3.5-4.0",
+                            "Key Traits": "UAS Dharwad recommended"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1.2 Seed Quality Parameters",
+                    "Table": [
+                        {
+                            "Parameter": "Seed Rate",
+                            "Standard / Recommended Value": "8-10 kg/acre (single cross) 12-15 kg/acre (OPV)",
+                            "Action if Not Met": "Procure certified seed"
+                        },
+                        {
+                            "Parameter": "Germination %",
+                            "Standard / Recommended Value": ">85%",
+                            "Action if Not Met": "Reject lot / buy fresh seed"
+                        },
+                        {
+                            "Parameter": "Purity",
+                            "Standard / Recommended Value": ">98%",
+                            "Action if Not Met": "Reject lot"
+                        },
+                        {
+                            "Parameter": "Moisture Content",
+                            "Standard / Recommended Value": "<12%",
+                            "Action if Not Met": "Dry before storage"
+                        },
+                        {
+                            "Parameter": "Seed Size",
+                            "Standard / Recommended Value": "Uniform, bold, plump",
+                            "Action if Not Met": "Grade seed"
+                        },
+                        {
+                            "Parameter": "Vigour Index",
+                            "Standard / Recommended Value": ">1800",
+                            "Action if Not Met": "Re-source seed"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1.3 Seed Treatment Protocol",
+                    "Text": "Seed treatment is essential to prevent soil-borne fungal diseases, damping-off, and to promote uniform germination. Follow the sequence below strictly.",
+                    "Table": [
+                        {
+                            "Step": "1- Biocontrol",
+                            "Product": "Trichoderma viride",
+                            "Dose / kg Seed": "5-10 g",
+                            "Purpose": "Root rot/Fusarium",
+                            "Waiting Time": "30 min dry"
+                        },
+                        {
+                            "Step": "2-Fungicide",
+                            "Product": "Thiram 75 WS",
+                            "Dose / kg Seed": "3 g",
+                            "Purpose": "Damping-off, smut",
+                            "Waiting Time": "30 min dry"
+                        },
+                        {
+                            "Step": "3- Fungicide",
+                            "Product": "Carbendazim 50 WP (alt.)",
+                            "Dose / kg Seed": "2 g",
+                            "Purpose": "Seed-borne fungi",
+                            "Waiting Time": "30 min dry"
+                        },
+                        {
+                            "Step": "4-Insecticide",
+                            "Product": "Imidacloprid 70 WS",
+                            "Dose / kg Seed": "5 ml",
+                            "Purpose": "Early shoot fly",
+                            "Waiting Time": "Dry before sow"
+                        },
+                        {
+                            "Step": "5- Biofertiliser",
+                            "Product": "Azospirillum brasilense",
+                            "Dose / kg Seed": "25 g",
+                            "Purpose": "N fixation",
+                            "Waiting Time": "Sow same day"
+                        }
+                    ],
+                    "Important Notes": [
+                        "IMPORTANT - Treatment Sequence",
+                        "Apply biological agents (Trichoderma, Azospirillum) LAST, always after chemical treatments.",
+                        "Never mix Trichoderma directly with chemical fungicides in the same step.",
+                        "Use treated seed within 24 hours. Do NOT store treated seed."
+                    ]
+                },
+                {
+                    "Heading": "1.4 Seed Selection Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Germination % < 85",
+                            "Action (THEN)": "REJECT seed lot procure certified seed from authorised dealer"
+                        },
+                        {
+                            "Condition (IF)": "Seed moisture > 12%",
+                            "Action (THEN)": "Dry seed in shade for 2-3 days, retest before treatment"
+                        },
+                        {
+                            "Condition (IF)": "Shoot fly incidence > 10% prev.",
+                            "Action (THEN)": "Use Imidacloprid 70 WS @ 5 ml/kg seed as mandatory treatment"
+                        },
+                        {
+                            "Condition (IF)": "Downy mildew history in field",
+                            "Action (THEN)": "Treat with Metalaxyl-M 350 FS @ 6 ml/kg seed additionally"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 2,
+            "Title": "Land Preparation",
+            "Description": "Soil testing, tillage, and basal organic matter",
+            "Subsections": [
+                {
+                    "Heading": "2.1 Soil Suitability for Dharwad",
+                    "Text": "Maize thrives in well-drained, deep loamy soils. Dharwad district predominantly has medium-black (vertisol) and red lateritic soils. Both are suitable for maize with appropriate management. Waterlogging must be avoided at all costs.",
+                    "Table": [
+                        {
+                            "Soil Parameter": "PH",
+                            "Ideal Range": "5.5-7.5",
+                            "Dharwad Typical": "6.0-7.2",
+                            "Corrective Action": "Lime if pH <5.5; Gypsum if >7.5"
+                        },
+                        {
+                            "Soil Parameter": "Organic Carbon (%)",
+                            "Ideal Range": ">0.75",
+                            "Dharwad Typical": "0.40-0.60",
+                            "Corrective Action": "Apply FYM/compost"
+                        },
+                        {
+                            "Soil Parameter": "Electrical Cond.",
+                            "Ideal Range": "<1.0 dS/m",
+                            "Dharwad Typical": "0.2-0.5",
+                            "Corrective Action": "Gypsum + leaching if >1.0"
+                        },
+                        {
+                            "Soil Parameter": "Available N",
+                            "Ideal Range": "280-560 kg/ha",
+                            "Dharwad Typical": "Low-Medium",
+                            "Corrective Action": "Supplement with urea"
+                        },
+                        {
+                            "Soil Parameter": "Available P",
+                            "Ideal Range": "22-44 kg/ha",
+                            "Dharwad Typical": "Low",
+                            "Corrective Action": "Apply SSP/DAP at basal"
+                        },
+                        {
+                            "Soil Parameter": "Available K",
+                            "Ideal Range": "140-280 kg/ha",
+                            "Dharwad Typical": "Medium-High",
+                            "Corrective Action": "Apply MOP at basal"
+                        },
+                        {
+                            "Soil Parameter": "Texture",
+                            "Ideal Range": "Sandy loam - Clay loam",
+                            "Dharwad Typical": "Medium black & red laterite",
+                            "Corrective Action": "Deep tillage for compact soils"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2.2 Tillage Operations",
+                    "Table": [
+                        {
+                            "Operation": "Primary tillage",
+                            "Implement": "MB Plough / Chisel",
+                            "Depth (cm)": "20-25",
+                            "Number of Passes": "1",
+                            "Timing": "Immediately after harvest / pre-monsoon"
+                        },
+                        {
+                            "Operation": "Secondary tillage",
+                            "Implement": "Disc harrowW",
+                            "Depth (cm)": "15-20",
+                            "Number of Passes": "1-2",
+                            "Timing": "10-15 days before sowing"
+                        },
+                        {
+                            "Operation": "Levelling",
+                            "Implement": "Cultivator + leveller",
+                            "Depth (cm)": "10",
+                            "Number of Passes": "1",
+                            "Timing": "After secondary tillage"
+                        },
+                        {
+                            "Operation": "Ridges & furrows",
+                            "Implement": "Ridger",
+                            "Depth (cm)": "",
+                            "Number of Passes": "1",
+                            "Timing": "Optional for heavy rainfall areas"
+                        },
+                        {
+                            "Operation": "Pre-sow irrigation",
+                            "Implement": "Flood/sprinkler",
+                            "Depth (cm)": "",
+                            "Number of Passes": "1",
+                            "Timing": "If soil moisture inadequate (Rabi)"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2.3 Basal Input Application",
+                    "Table": [
+                        {
+                            "Input": "FYM/Compost",
+                            "Quantity / Acre": "4-5 tons",
+                            "Incorporation Method": "Broadcast + plough",
+                            "Timing": "3-4 weeks before sowing"
+                        },
+                        {
+                            "Input": "Vermicompost",
+                            "Quantity / Acre": "800 kg-1 ton",
+                            "Incorporation Method": "Broadcast + mix",
+                            "Timing": "7-10 days before sowing"
+                        },
+                        {
+                            "Input": "Green manure crop",
+                            "Quantity / Acre": "Dhaincha/Sunhemp",
+                            "Incorporation Method": "Incorporate at flowering",
+                            "Timing": "4-5 weeks before sowing"
+                        },
+                        {
+                            "Input": "Lime (if pH <5.5)",
+                            "Quantity / Acre": "200-400 kg",
+                            "Incorporation Method": "Broadcast + plough",
+                            "Timing": "6-8 weeks before sowing"
+                        },
+                        {
+                            "Input": "Rock phosphate",
+                            "Quantity / Acre": "40 kg P2O5",
+                            "Incorporation Method": "Basal broadcast",
+                            "Timing": "At ploughing"
+                        },
+                        {
+                            "Input": "Neem cake",
+                            "Quantity / Acre": "100-150 kg",
+                            "Incorporation Method": "Furrow application",
+                            "Timing": "At sowing"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2.4 Land Preparation Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Soil pH < 5.5",
+                            "Action (THEN)": "Apply agricultural lime @ 2-4 q/acre; wait 6-8 weeks before sowing"
+                        },
+                        {
+                            "Condition (IF)": "Soil pH > 7.5",
+                            "Action (THEN)": "Apply gypsum @ 1-2 q/acre; ensure good drainage"
+                        },
+                        {
+                            "Condition (IF)": "Previous crop = Rice",
+                            "Action (THEN)": "Deep plough to break hard pan; ensure proper drainage channels"
+                        },
+                        {
+                            "Condition (IF)": "Soil compaction detected",
+                            "Action (THEN)": "Use subsoiler at 35-40 cm depth before normal tillage"
+                        },
+                        {
+                            "Condition (IF)": "Organic Carbon < 0.5%",
+                            "Action (THEN)": "Apply FYM 5 tons + Vermicompost 1 ton/acre mandatorily"
+                        },
+                        {
+                            "Condition (IF)": "Nematode history",
+                            "Action (THEN)": "Apply Carbofuran 3G @ 8 kg/acre or Neem cake @ 150 kg/acre in furrows"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 3,
+            "Title": "Sowing",
+            "Description": "Timing, spacing, depth, and moisture management",
+            "Subsections": [
+                {
+                    "Heading": "3.1 Sowing Season Calendar - Dharwad",
+                    "Table": [
+                        {
+                            "Season": "Kharif",
+                            "Sowing Window": "June 10-July 15",
+                            "Harvest Period": "Oct - Nov",
+                            "Remarks": "Main season; rain-fed possible"
+                        },
+                        {
+                            "Season": "Rabi",
+                            "Sowing Window": "Oct 15-Nov 15",
+                            "Harvest Period": "Feb-Mar",
+                            "Remarks": "Irrigated; better quality grain"
+                        },
+                        {
+                            "Season": "Summer",
+                            "Sowing Window": "Jan 15-Feb 15",
+                            "Harvest Period": "May - Jun",
+                            "Remarks": "Full irrigation required; heat stress risk"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3.2 Sowing Parameters",
+                    "Table": [
+                        {
+                            "Parameter": "Soil Moisture at Sowing",
+                            "Recommended Value": "Field Capacity (50-60% WHC)",
+                            "Notes": "Test: squeeze soil no water drips, holds shape"
+                        },
+                        {
+                            "Parameter": "Sowing Depth",
+                            "Recommended Value": "4-5 cm",
+                            "Notes": "Shallower in heavy soil; deeper in light sandy soil"
+                        },
+                        {
+                            "Parameter": "Row Spacing",
+                            "Recommended Value": "60 cm (standard)",
+                            "Notes": "Allows inter-cultivation with tractor"
+                        },
+                        {
+                            "Parameter": "Plant Spacing",
+                            "Recommended Value": "20-22 cm (within row)",
+                            "Notes": "Target plant population: 33,000-37,000/acre"
+                        },
+                        {
+                            "Parameter": "Seed to Seed Spacing",
+                            "Recommended Value": "60 cm x 20 cm",
+                            "Notes": "Standard UAS Dharwad recommendation"
+                        },
+                        {
+                            "Parameter": "Alternative Spacing",
+                            "Recommended Value": "75 cm x 18 cm",
+                            "Notes": "For paired-row planting in irrigated fields"
+                        },
+                        {
+                            "Parameter": "Plant Population",
+                            "Recommended Value": "33,000-37,000 plants/acre",
+                            "Notes": "Confirm at 30 DAS after gap-filling"
+                        },
+                        {
+                            "Parameter": "Method",
+                            "Recommended Value": "Seed drill / Manual dibbling",
+                            "Notes": "Seed drill preferred for uniform depth"
+                        }
+                    ],
+                    "Clarification": [
+                        "Spacing Clarification - 16 cm vs 20 cm",
+                        "Standard agronomic recommendation: 60 cm x 20 cm (UAS Dharwad & ICAR).",
+                        "16 cm x 20 cm gives ~51,000 plants/acre too dense, causes lodging & low cob weight.",
+                        "Use 60 x 20 cm unless UAS Dharwad specifically recommends 16 cm for a given hybrid."
+                    ]
+                },
+                {
+                    "Heading": "3.3 Fertiliser at Sowing (Basal Dose)",
+                    "Table": [
+                        {
+                            "Nutrient": "Nitrogen (N)",
+                            "Source": "Urea",
+                            "Quantity / Acre": "25% of total N dose (-10-12 kg urea)",
+                            "Method": "Band placement 5 cm away from seed"
+                        },
+                        {
+                            "Nutrient": "Phosphorus (P)",
+                            "Source": "DAP/SSP",
+                            "Quantity / Acre": "Full P dose (80 kg SSP or 40 kg DAP)",
+                            "Method": "Basal incorporation"
+                        },
+                        {
+                            "Nutrient": "Potassium (K)",
+                            "Source": "MOP",
+                            "Quantity / Acre": "Full K dose (25 kg MOP)",
+                            "Method": "Basal incorporation"
+                        },
+                        {
+                            "Nutrient": "Zinc (Zn)",
+                            "Source": "Zinc Sulphate",
+                            "Quantity / Acre": "10 kg ZnSO/acre",
+                            "Method": "Mix with FYM, broadcast"
+                        },
+                        {
+                            "Nutrient": "Boron (B)",
+                            "Source": "Borax",
+                            "Quantity / Acre": "2 kg/acre (if deficient)",
+                            "Method": "Soil application"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3.4 Sowing Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Heavy rainfall at sowing (>50 mm in 24 hrs)",
+                            "Action (THEN)": "DELAY sowing 4-5 days; ensure drainage; avoid waterlogging at germination"
+                        },
+                        {
+                            "Condition (IF)": "Soil dry / moisture insufficient",
+                            "Action (THEN)": "Give pre-sowing irrigation (2-3 cm); sow into moisture"
+                        },
+                        {
+                            "Condition (IF)": "Soil temp < 15\u00b0C",
+                            "Action (THEN)": "DELAY sowing cold soil delays germination >10 days, increases rot risk"
+                        },
+                        {
+                            "Condition (IF)": "Soil temp > 35\u00b0C",
+                            "Action (THEN)": "Sow in late afternoon; mulch after sowing to retain moisture"
+                        },
+                        {
+                            "Condition (IF)": "Forecast: 3+ dry days after sowing",
+                            "Action (THEN)": "Pre-sow irrigation mandatory; use seed priming technique"
+                        },
+                        {
+                            "Condition (IF)": "First rains received (Kharif)",
+                            "Action (THEN)": "Sow within 3-5 days of first good rain for best stand"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 4,
+            "Title": "Emergence (0-15 DAS)",
+            "Description": "Germination monitoring and gap filling",
+            "Subsections": [
+                {
+                    "Heading": "4.1 Normal Emergence Timeline",
+                    "Table": [
+                        {
+                            "Condition": "Optimal (25-30\u00b0C moist)",
+                            "Emergence Day": "4-7 DAS",
+                            "Expected Germination %": ">90%",
+                            "Status": "Excellent"
+                        },
+                        {
+                            "Condition": "Sub-optimal (20-25\u00b0C)",
+                            "Emergence Day": "7-10 DAS",
+                            "Expected Germination %": "85-90%",
+                            "Status": "Acceptable"
+                        },
+                        {
+                            "Condition": "Stress (colddry//excess wet)",
+                            "Emergence Day": "10-14 DAS",
+                            "Expected Germination %": "70-85%",
+                            "Status": "Monitor closely"
+                        },
+                        {
+                            "Condition": "Failed germination",
+                            "Emergence Day": ">15 DAS",
+                            "Expected Germination %": "<70%",
+                            "Status": "Gap fill required"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "4.2 Germination Assessment Method",
+                    "List": [
+                        "Mark 5 random plots of 10 m row length each at 10-12 DAS",
+                        "Count emerged plants vs expected (based on seed rate and spacing)",
+                        "Calculate germination %: (Emerged / Expected) x 100",
+                        "Record and compare against 85% threshold"
+                    ]
+                },
+                {
+                    "Heading": "4.3 Gap Filling Protocol",
+                    "Table": [
+                        {
+                            "Activity": "Pre-germinated seed",
+                            "Timing": "If <70% at 10 DAS",
+                            "Method / Material": "Soak seed 6-8 hrs, pre-germinate on wet cloth",
+                            "Note": "Faster than dry seed"
+                        },
+                        {
+                            "Activity": "Tray-raised seedlings",
+                            "Timing": "If <70% at 12 DAS",
+                            "Method / Material": "Raise nursery in pro-trays, transplant at 3-leaf",
+                            "Note": "Best establishment"
+                        },
+                        {
+                            "Activity": "Re-sowing gaps",
+                            "Timing": "10-15 DAS",
+                            "Method / Material": "Dibble 2 seeds/gap; thin to 1 plant at 20 DAS",
+                            "Note": "Standard method"
+                        },
+                        {
+                            "Activity": "Irrigation post fill",
+                            "Timing": "Immediately",
+                            "Method / Material": "Light irrigation (2 cm) to establish gap fill",
+                            "Note": "Critical step"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "4.4 Early Pest and Disease Monitoring (0-15 DAS)",
+                    "Table": [
+                        {
+                            "Pest/Disease": "Shoot Fly (Atherigona spp.)",
+                            "Symptoms": "Dead heart central shoot wilts & dries",
+                            "Threshold": "5% dead hearts",
+                            "Action": "Spray Chlorpyrifos 2.5 ml/L"
+                        },
+                        {
+                            "Pest/Disease": "Cutworm",
+                            "Symptoms": "Plants cut at ground level, missing plants",
+                            "Threshold": "1 larva/m row",
+                            "Action": "Apply Chlorpyrifos granules in soil"
+                        },
+                        {
+                            "Pest/Disease": "Pythium damping-off",
+                            "Symptoms": "Water-soaked lesion at collar region",
+                            "Threshold": "Any occurrence",
+                            "Action": "Drench Metalaxyl 1 g/L water"
+                        },
+                        {
+                            "Pest/Disease": "White grub",
+                            "Symptoms": "Plants pulled out easily, roots eaten",
+                            "Threshold": "1 grub/plant",
+                            "Action": "Apply Phorate 10G @ 10 kg/acre"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "4.5 Emergence Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Germination % < 70 at 10-12 DAS",
+                            "Action (THEN)": "Immediate gap filling with pre-germinated seed or seedlings"
+                        },
+                        {
+                            "Condition (IF)": "Germination % 70-85 at 12 DAS",
+                            "Action (THEN)": "Selective gap filling in bare patches only"
+                        },
+                        {
+                            "Condition (IF)": "Germination % > 85 at 10 DAS",
+                            "Action (THEN)": "Normal proceed to thinning at 20 DAS if double seeds planted"
+                        },
+                        {
+                            "Condition (IF)": "Shoot fly dead heart > 5%",
+                            "Action (THEN)": "Spray Chlorpyrifos 20 EC @ 2.5 ml/litre water"
+                        },
+                        {
+                            "Condition (IF)": "Soil crust formed after rain",
+                            "Action (THEN)": "Break crust mechanically or with light irrigation to aid emergence"
+                        },
+                        {
+                            "Condition (IF)": "Heavy rain after sowing (>50mm)",
+                            "Action (THEN)": "Check for waterlogging; provide drainage; assess germination at 12 DAS"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 5,
+            "Title": "Vegetative Stage (15-45 DAS)",
+            "Description": "Nitrogen management, weed control & crop protection",
+            "Subsections": [
+                {
+                    "Heading": "5.1 Recommended Fertiliser Schedule - Dharwad",
+                    "Text": "The total fertiliser recommendation for maize in Dharwad district (medium black soils) is 120:60:40 kg NPK/ha (approx. 48:24:16 kg/acre). Nitrogen is split to improve use efficiency and reduce losses.",
+                    "Table": [
+                        {
+                            "Stage": "Basal (Sowing)",
+                            "DAS": "0",
+                            "Fertiliser": "DAP + MOP + ZnSO4",
+                            "Dose / Acre": "40 kg DAP + 25 kg MOP + 10 kg ZnSO4",
+                            "N Split": "25% N",
+                            "Method": "Soil incorporate"
+                        },
+                        {
+                            "Stage": "1st Top Dress",
+                            "DAS": "25",
+                            "Fertiliser": "Urea",
+                            "Dose / Acre": "30 kg urea",
+                            "N Split": "50% N",
+                            "Method": "Band/placement, irrigate"
+                        },
+                        {
+                            "Stage": "2nd Top Dress",
+                            "DAS": "45",
+                            "Fertiliser": "Urea + MOP (if needed)",
+                            "Dose / Acre": "15 kg urea",
+                            "N Split": "25% N",
+                            "Method": "Soil placement"
+                        },
+                        {
+                            "Stage": "Micronutrients",
+                            "DAS": "30",
+                            "Fertiliser": "Zinc Sulphate foliar",
+                            "Dose / Acre": "0.5% ZnSO4 spray",
+                            "N Split": "",
+                            "Method": "Foliar spray"
+                        },
+                        {
+                            "Stage": "Iron deficiency",
+                            "DAS": "25",
+                            "Fertiliser": "FeSO4 foliar",
+                            "Dose / Acre": "0.5% FeSO4 spray",
+                            "N Split": "",
+                            "Method": "If interveinal chlorosis"
+                        }
+                    ],
+                    "Best Practices": [
+                        "Nitrogen Application Best Practices",
+                        "Apply urea as band placement 5-7 cm from plant base and immediately cover with soil.",
+                        "Never broadcast urea before rain ammonia volatilisation loss can reach 40-60%.",
+                        "If irrigation available, apply urea and irrigate within 24 hours.",
+                        "Fertigated urea through drip gives 30-35% higher N-use efficiency."
+                    ]
+                },
+                {
+                    "Heading": "5.2 Weed Management Schedule",
+                    "Table": [
+                        {
+                            "Method": "Pre-emergence herbicide",
+                            "Timing": "0-3 DAS",
+                            "Product/ Activity": "Atrazine 50 WP",
+                            "Dose / Acre": "800 g in 200 L water",
+                            "Target Weeds": "Broad-spectrum grasses + broadleaf"
+                        },
+                        {
+                            "Method": "Pre-emergence herbicide",
+                            "Timing": "0-3 DAS",
+                            "Product/ Activity": "Pendimethalin 30 EC (alt.)",
+                            "Dose / Acre": "1.3 L in 200 L water",
+                            "Target Weeds": "Annual grasses"
+                        },
+                        {
+                            "Method": "Hand weeding",
+                            "Timing": "20-25 DAS",
+                            "Product/ Activity": "Manual/wheel hoe",
+                            "Dose / Acre": "",
+                            "Target Weeds": "Any escapes"
+                        },
+                        {
+                            "Method": "Post-emergence herbicide",
+                            "Timing": "20-25 DAS",
+                            "Product/ Activity": "Tembotrione 34.4% SC",
+                            "Dose / Acre": "120 ml in 200 L",
+                            "Target Weeds": "Grasses + sedges"
+                        },
+                        {
+                            "Method": "Inter-cultivation",
+                            "Timing": "30 DAS",
+                            "Product/ Activity": "Tractor cultivator",
+                            "Dose / Acre": "",
+                            "Target Weeds": "Weeds + soil aeration"
+                        },
+                        {
+                            "Method": "Earthing-up",
+                            "Timing": "40-45 DAS",
+                            "Product/ Activity": "Ridger/manual",
+                            "Dose / Acre": "",
+                            "Target Weeds": "Supports plant + covers weeds"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "5.3 Irrigation Requirement (Vegetative Stage)",
+                    "Table": [
+                        {
+                            "Growth Period": "0-15 DAS (germination)",
+                            "Critical?": "High",
+                            "Water Requirement (mm/period)": "50-60",
+                            "Irrigation if No Rain": "Light irrigation 2-3 cm every 5-6 days"
+                        },
+                        {
+                            "Growth Period": "15-30 DAS (V3-V6)",
+                            "Critical?": "Medium",
+                            "Water Requirement (mm/period)": "50-70",
+                            "Irrigation if No Rain": "One irrigation if 10+ dry days"
+                        },
+                        {
+                            "Growth Period": "30-45 DAS (V7-V10)",
+                            "Critical?": "Medium",
+                            "Water Requirement (mm/period)": "70-90",
+                            "Irrigation if No Rain": "One irrigation if soil moisture <50% FC"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "5.4 Fall Armyworm (FAW) Management - Spodoptera frugiperda",
+                    "Text": "FAW is the most critical pest of maize in Karnataka. Monitor whorls for feeding damage. Early detection (V3-V6) is crucial for effective management.",
+                    "Table": [
+                        {
+                            "Damage Level": "<5% plants affected",
+                            "Action": "Scout daily; no spray yet",
+                            "Product": "",
+                            "Dose / Acre": ""
+                        },
+                        {
+                            "Damage Level": "5-15% plants affected",
+                            "Action": "Whorl application",
+                            "Product": "Sand + Chlorpyrifos 20 EC",
+                            "Dose / Acre": "2 ml/L, apply in whorl"
+                        },
+                        {
+                            "Damage Level": ">15% plants affected",
+                            "Action": "Foliar spray",
+                            "Product": "Emamectin Benzoate 5 SG",
+                            "Dose / Acre": "4 g/15L water"
+                        },
+                        {
+                            "Damage Level": "Any level at V3-V6",
+                            "Action": "Whorl application (best efficacy)",
+                            "Product": "Spinetoram 11.7 SC",
+                            "Dose / Acre": "8 ml/15L water"
+                        },
+                        {
+                            "Damage Level": "Biological option",
+                            "Action": "Spray on egg masses",
+                            "Product": "NPVSf -(Nuclear Poly.V.)",
+                            "Dose / Acre": "250 LE/acre"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "5.5 Vegetative Stage Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Plant age = 25 DAS",
+                            "Action (THEN)": "Apply 1st urea top dressing @30 kg/acre band placement"
+                        },
+                        {
+                            "Condition (IF)": "Plant age = 40-45 DAS",
+                            "Action (THEN)": "Apply 2nd urea @ 15 kg/acre + earthing-up operation"
+                        },
+                        {
+                            "Condition (IF)": "Yellowing from lower leaves upward",
+                            "Action (THEN)": "Nitrogen deficiency apply urea foliar spray 2% or soil application"
+                        },
+                        {
+                            "Condition (IF)": "Interveinal chlorosis (younger leaves)",
+                            "Action (THEN)": "Zinc deficiency - spray ZnSO4 0.5% twice at 7-day interval"
+                        },
+                        {
+                            "Condition (IF)": "FAW damage > 5% whorls",
+                            "Action (THEN)": "Apply Emamectin Benzoate 4 g/15L or Chlorpyrifos 2 ml/L in whorl"
+                        },
+                        {
+                            "Condition (IF)": "Weed cover > 30% ground",
+                            "Action (THEN)": "Manual weeding + inter-cultivation immediately"
+                        },
+                        {
+                            "Condition (IF)": "No rain > 15 days + visual wilting",
+                            "Action (THEN)": "Irrigate @ 3-4 cm; maize at V6 is sensitive to moisture stress"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 6,
+            "Title": "Tasseling (45-65 DAS)",
+            "Description": "Irrigation priority, pollination protection & nutrient management",
+            "Subsections": [
+                {
+                    "Heading": "6.1 Tasseling Stage Overview",
+                    "Text": "Tasseling marks the beginning of the reproductive phase. The tassel at the top of the plant sheds pollen over 5-8 days. Any moisture stress during this period severely reduces pollination and cob set. This is the FIRST CRITICAL IRRIGATION PERIOD.",
+                    "Table": [
+                        {
+                            "Parameter": "Water Requirement",
+                            "Value / Recommendation": "80-100 mm for entire tasseling period"
+                        },
+                        {
+                            "Parameter": "Irrigation Frequency",
+                            "Value / Recommendation": "Every 6-8 days if no rain"
+                        },
+                        {
+                            "Parameter": "Critical Soil Moisture",
+                            "Value / Recommendation": "Must be > 60% Field Capacity"
+                        },
+                        {
+                            "Parameter": "Irrigation Method",
+                            "Value / Recommendation": "Furrow/sprinkler preferred; avoid overhead wetting at pollen shedding time"
+                        },
+                        {
+                            "Parameter": "Humidity Requirement",
+                            "Value / Recommendation": "50-70% relative humidity optimal for pollen viability"
+                        },
+                        {
+                            "Parameter": "Tassel Emergence Sign",
+                            "Value / Recommendation": "Tassel tip visible at top of plant irrigation due immediately"
+                        },
+                        {
+                            "Parameter": "Duration of Pollen Shed",
+                            "Value / Recommendation": "5-8 days; peak at 10 AM-12 PM"
+                        },
+                        {
+                            "Parameter": "Temperature Sensitivity",
+                            "Value / Recommendation": ">35\u00b0C or <10\u00b0C severely reduces pollen viability"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "6.2 Stress Symptoms at Tasseling",
+                    "Table": [
+                        {
+                            "Stress Type": "Water stress",
+                            "Visual Symptom": "Leaf rolling, grey-green colour, tassel delayed",
+                            "Severity": "HIGH",
+                            "Impact on Yield": "20-30% yield loss if not corrected"
+                        },
+                        {
+                            "Stress Type": "Nitrogen deficiency",
+                            "Visual Symptom": "Yellow V from leaf tip, weak tassel",
+                            "Severity": "MEDIUM",
+                            "Impact on Yield": "Reduced pollen quantity"
+                        },
+                        {
+                            "Stress Type": "Heat stress",
+                            "Visual Symptom": "Pollen not shed / shed early (morning only)",
+                            "Severity": "HIGH",
+                            "Impact on Yield": "Poor fertilisation, chaffy cobs"
+                        },
+                        {
+                            "Stress Type": "Wind damage",
+                            "Visual Symptom": "Tassel broken / lodging starts",
+                            "Severity": "MEDIUM",
+                            "Impact on Yield": "Apply propiconazole if fungal entry"
+                        },
+                        {
+                            "Stress Type": "Borer (FAW/CBB)",
+                            "Visual Symptom": "Frass in tassel, feeding on pollen",
+                            "Severity": "MEDIUM",
+                            "Impact on Yield": "Spray Chlorpyrifos 2 ml/L"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "6.3 Tasseling Stage Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Tassel emergence visible",
+                            "Action (THEN)": "IRRIGATION PRIORITY = HIGH - irrigate within 48 hours"
+                        },
+                        {
+                            "Condition (IF)": "No rain for 10+ days during tasseling",
+                            "Action (THEN)": "Irrigate immediately @ 4-5 cm; repeat every 6 days"
+                        },
+                        {
+                            "Condition (IF)": "Soil moisture <50% FC at tasseling",
+                            "Action (THEN)": "Emergency irrigation required direct impact on cob count"
+                        },
+                        {
+                            "Condition (IF)": "Temperature >35\u00b0C during pollen shed",
+                            "Action (THEN)": "Irrigation cools canopy; schedule irrigation in late afternoon"
+                        },
+                        {
+                            "Condition (IF)": "Leaf rolling visible before 9 AM",
+                            "Action (THEN)": "Severe water stress irrigate within 24 hours"
+                        },
+                        {
+                            "Condition (IF)": "Rain > 40 mm during tasseling",
+                            "Action (THEN)": "Ensure drainage; check for Maydis Blight if humid"
+                        },
+                        {
+                            "Condition (IF)": "Tassel blasting/poor pollen shed observed",
+                            "Action (THEN)": "Cannot be corrected this is a forecast warning only; prevent by irrigation"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 7,
+            "Title": "Silking (65-75 DAS)",
+            "Description": "THE MOST CRITICAL STAGE - zero tolerance for moisture stress",
+            "Subsections": [
+                {
+                    "Heading": "CRITICAL STAGE ALERT",
+                    "Text": "Silking is the single most yield-determining stage in maize. Even 1-2 days of moisture stress at silking can cause 50-70% yield loss. Every silk must receive pollen for a kernel to form stress prevents silk emergence. Monitor daily during this 10-day window. Do NOT miss irrigation timing."
+                },
+                {
+                    "Heading": "7.1 Silking Stage Parameters",
+                    "Table": [
+                        {
+                            "Parameter": "Silking Period",
+                            "Value / Recommendation": "65-75 DAS (10-day window)"
+                        },
+                        {
+                            "Parameter": "Silk Emergence Sign",
+                            "Value / Recommendation": "Fine, pale-green, thread-like silks emerge from husk tip"
+                        },
+                        {
+                            "Parameter": "Pollen-Silk Interval",
+                            "Value / Recommendation": "Tassel sheds 2-3 days before silk; synchrony critical"
+                        },
+                        {
+                            "Parameter": "Water Requirement",
+                            "Value / Recommendation": "100-120 mm highest of entire crop duration"
+                        },
+                        {
+                            "Parameter": "Irrigation Frequency",
+                            "Value / Recommendation": "Every 5-6 days; do NOT allow any wilting"
+                        },
+                        {
+                            "Parameter": "Critical Soil Moisture",
+                            "Value / Recommendation": "> 70% Field Capacity MANDATORY"
+                        },
+                        {
+                            "Parameter": "Silk Receptivity Period",
+                            "Value / Recommendation": "5-8 days; fertilisation occurs 24 hrs after pollen lands"
+                        },
+                        {
+                            "Parameter": "Kernel Count Potential",
+                            "Value / Recommendation": "Set at this stage determines final cob weight"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "7.2 Silk Synchrony & Pollination Management",
+                    "Text": "Poor synchrony between tasseling and silking is a major yield constraint. Silks that emerge after pollen shed ends are not fertilised. Management options are limited at this stage prevention via timely sowing is the best strategy.",
+                    "Table": [
+                        {
+                            "Situation": "Silk delayed >5 days after tassel",
+                            "Cause": "Water stress, heat, N deficiency",
+                            "Impact": "Poor kernel set",
+                            "Management": "Irrigate + foliar urea 2%"
+                        },
+                        {
+                            "Situation": "Tassel delayed (late)",
+                            "Cause": "Cold spell, N deficiency",
+                            "Impact": "Synchrony disruption",
+                            "Management": "Monitor foliar micronutrients"
+                        },
+                        {
+                            "Situation": "Silks dry out before pollination",
+                            "Cause": "Low humidity, heat, dry wind",
+                            "Impact": "Unfertilised kernels",
+                            "Management": "Irrigate; reduce water stress"
+                        },
+                        {
+                            "Situation": "Good synchrony (ideal)",
+                            "Cause": "Optimal moisture + nutrition",
+                            "Impact": "Full cob development",
+                            "Management": "Maintain irrigation + N"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "7.3 Disease Watch at Silking",
+                    "Table": [
+                        {
+                            "Disease": "Downy Mildew (Peronosclerospora spp.)",
+                            "Favourable Conditions": "High humidity, cool nights",
+                            "Symptoms": "White downy growth on leaves",
+                            "Management": "Metalaxyl-M 1 g/L + Mancozeb"
+                        },
+                        {
+                            "Disease": "Maydis Leaf Blight",
+                            "Favourable Conditions": ">25\u00b0C, humid",
+                            "Symptoms": "Tan lesions with yellow halo",
+                            "Management": "Mancozeb 2.5 g/L spray"
+                        },
+                        {
+                            "Disease": "Ear Rot (Diplodia)",
+                            "Favourable Conditions": "Wet weather at silking",
+                            "Symptoms": "White mould on husk base",
+                            "Management": "Ensure drainage; avoid stress"
+                        },
+                        {
+                            "Disease": "Common Smut (Ustilago maydis)",
+                            "Favourable Conditions": "Wounding, dry-wet cycle",
+                            "Symptoms": "Galls on cob/tassel",
+                            "Management": "Remove and destroy galls"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "7.4 Silking Stage Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Silk emergence visible",
+                            "Action (THEN)": "IRRIGATION PRIORITY = VERY HIGH - irrigate same day if soil dry"
+                        },
+                        {
+                            "Condition (IF)": "Moisture stress during silking (any)",
+                            "Action (THEN)": "YIELD LOSS RISK = VERY HIGH - irrigate immediately, every 5 days"
+                        },
+                        {
+                            "Condition (IF)": "Temperature >38\u00b0C during silking",
+                            "Action (THEN)": "Irrigation + potassium spray (0.5% K2SO4) to reduce heat stress"
+                        },
+                        {
+                            "Condition (IF)": "Silk browning before full cob fill",
+                            "Action (THEN)": "Premature drying indicator of severe stress; assess yield loss"
+                        },
+                        {
+                            "Condition (IF)": "No rain + soil moisture < 50% FC",
+                            "Action (THEN)": "Emergency irrigation within 12 hours critical yield window"
+                        },
+                        {
+                            "Condition (IF)": "Rain > 60 mm in 3 days during silking",
+                            "Action (THEN)": "Check drainage; apply propiconazole for fungal disease control"
+                        },
+                        {
+                            "Condition (IF)": "FAW damage on cob entry point",
+                            "Action (THEN)": "Apply Emamectin Benzoate 4 g/15L into silk channel"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 8,
+            "Title": "Grain Filling (75-105 DAS)",
+            "Description": "Carcohydinte accumulation potassium role & imigation schedule",
+            "Subsections": [
+                {
+                    "Heading": "8.1 Grain Filling Phases",
+                    "Table": [
+                        {
+                            "Phase": "Water Ripe (R1-R2)",
+                            "DAS Range": "75-82",
+                            "Grain State": "Liquid / milky endosperm",
+                            "Key Process": "Rapid cell division; kernel number set"
+                        },
+                        {
+                            "Phase": "Milk Stage (R3)",
+                            "DAS Range": "82-90",
+                            "Grain State": "White watery fluid",
+                            "Key Process": "Starch accumulation begins"
+                        },
+                        {
+                            "Phase": "Dough Stage (R4)",
+                            "DAS Range": "90-100",
+                            "Grain State": "Thick paste consistency",
+                            "Key Process": "Rapid dry weight gain in grain"
+                        },
+                        {
+                            "Phase": "Dent Stage (R5)",
+                            "DAS Range": "100-110",
+                            "Grain State": "Dented top, hard sides",
+                            "Key Process": "Maximum kernel dry weight"
+                        },
+                        {
+                            "Phase": "Maturity (R6)",
+                            "DAS Range": "110-115",
+                            "Grain State": "Black layer formed",
+                            "Key Process": "Grain filling complete"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "8.2 Potassium's Critical Role in Grain Filling",
+                    "Text": "Potassium (K) is the most important nutrient during grain filling. It regulates stomatal function, reduces water loss, and drives sucrose translocation from leaves to grain. Potassium deficiency at this stage causes poor grain weight and shrivelled kernels.",
+                    "Table": [
+                        {
+                            "K Function": "Sucrose translocation",
+                            "Agronomic Impact": "Grain filling rate increases 25-30%",
+                            "Symptom if Deficient": "Small, shrivelled kernels"
+                        },
+                        {
+                            "K Function": "Stomata regulation",
+                            "Agronomic Impact": "Improved water use efficiency",
+                            "Symptom if Deficient": "Excessive wilting in mild stress"
+                        },
+                        {
+                            "K Function": "Stem strength",
+                            "Agronomic Impact": "Reduces stalk lodging and breakage",
+                            "Symptom if Deficient": "Weak stems, lodging at R4-R5"
+                        },
+                        {
+                            "K Function": "Disease resistance",
+                            "Agronomic Impact": "Reduces ear rot and stalk rot incidence",
+                            "Symptom if Deficient": "Increased Diplodia / Gibberella"
+                        },
+                        {
+                            "K Function": "Protein synthesis",
+                            "Agronomic Impact": "Better grain quality and protein content",
+                            "Symptom if Deficient": "Low protein %, poor storability"
+                        }
+                    ],
+                    "Application Details": [
+                        "Potassium Application at Grain Filling",
+                        "If soil K is LOW: Foliar spray -0.5-1.0% K2SO4 (Potassium Sulphate) at R1-R3 stage.",
+                        "Apply foliar K in cool hours (early morning or late evening) to avoid leaf burn.",
+                        "Soil MOP application: If not applied at basal, apply 20-25 kg MOP/acre before R2.",
+                        "Foliar K improves grain weight by 8-15% in K-deficient soils (ICAR trials, Karnataka)."
+                    ]
+                },
+                {
+                    "Heading": "8.3 Irrigation Schedule - Grain Filling",
+                    "Table": [
+                        {
+                            "Stage": "R1-R2 (Water Ripe)",
+                            "DAS": "75-82",
+                            "Water Req. (mm)": "80-90",
+                            "Irrigation Frequency": "Every 7 days if no rain",
+                            "Priority": "HIGH"
+                        },
+                        {
+                            "Stage": "R3 (Milk)",
+                            "DAS": "82-90",
+                            "Water Req. (mm)": "70-80",
+                            "Irrigation Frequency": "Every 8 days",
+                            "Priority": "HIGH"
+                        },
+                        {
+                            "Stage": "R4 (Dough)",
+                            "DAS": "90-100",
+                            "Water Req. (mm)": "50-60",
+                            "Irrigation Frequency": "Every 10 days",
+                            "Priority": "MEDIUM"
+                        },
+                        {
+                            "Stage": "R5 (Dent)",
+                            "DAS": "100-110",
+                            "Water Req. (mm)": "30-40",
+                            "Irrigation Frequency": "One irrigation only",
+                            "Priority": "LOW"
+                        },
+                        {
+                            "Stage": "R6 (Maturity)",
+                            "DAS": "110-115",
+                            "Water Req. (mm)": "Minimal",
+                            "Irrigation Frequency": "Withhold irrigation",
+                            "Priority": "NONE"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "8.4 Grain Filling Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Milk stage (R3) visible",
+                            "Action (THEN)": "Apply foliar K2SO4 0.5%; ensure irrigation every 7-8 days"
+                        },
+                        {
+                            "Condition (IF)": "Dough stage with lodging > 10%",
+                            "Action (THEN)": "Provide mechanical support if possible; check for stalk rot"
+                        },
+                        {
+                            "Condition (IF)": "Soil K test: <140 kg/ha",
+                            "Action (THEN)": "Apply MOP 25 kg/acre soil application OR foliar K2SO4 spray"
+                        },
+                        {
+                            "Condition (IF)": "No rain for 12+ days at dough",
+                            "Action (THEN)": "Irrigate withholding at R4 reduces grain weight 8-12%"
+                        },
+                        {
+                            "Condition (IF)": "Rat/bird damage visible",
+                            "Action (THEN)": "Set traps; use zinc phosphide bait; scare devices at R3-R5"
+                        },
+                        {
+                            "Condition (IF)": "Stalk rot symptoms (R4)",
+                            "Action (THEN)": "Harvest early if f>20% affected; assess maturity by black layer"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Stage Number": 9,
+            "Title": "Harvest & Storage (105-120 DAS)",
+            "Description": "Maturity indices, harvesting, drying and safe storage",
+            "Subsections": [
+                {
+                    "Heading": "9.1 Maturity Indices",
+                    "Text": "Harvest at the correct moisture content is critical to avoid field losses and storage problems. Several indices help determine physiological maturity.",
+                    "Table": [
+                        {
+                            "Maturity Index": "Black Layer",
+                            "Description": "Abscission layer at kernel base turns black",
+                            "Harvest Ready When...": "Black layer visible on 80%+ kernels"
+                        },
+                        {
+                            "Maturity Index": "Husk Colour",
+                            "Description": "Outer husk turns from green to straw-yellow",
+                            "Harvest Ready When...": "Husk fully yellow / pale brown"
+                        },
+                        {
+                            "Maturity Index": "Grain Moisture",
+                            "Description": "Moisture meter reading",
+                            "Harvest Ready When...": "20-25% moisture (field harvest) <14% for storage"
+                        },
+                        {
+                            "Maturity Index": "Stem Drying",
+                            "Description": "Lower leaves and stem drying",
+                            "Harvest Ready When...": "50%+ lower leaves dried"
+                        },
+                        {
+                            "Maturity Index": "Thumb-nail Test",
+                            "Description": "Press nail into dent area of grain",
+                            "Harvest Ready When...": "No indentation - hard grain"
+                        },
+                        {
+                            "Maturity Index": "Days after Silking",
+                            "Description": "Count from silking date",
+                            "Harvest Ready When...": "55-65 days after silking"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "9.2 Harvest Parameters & Methods",
+                    "Table": [
+                        {
+                            "Parameter": "Optimal harvest moisture",
+                            "Value": "20-25%",
+                            "Notes": "Higher moisture = field losses; lower = shattering"
+                        },
+                        {
+                            "Parameter": "Mechanised harvest moisture",
+                            "Value": "18-22%",
+                            "Notes": "Combine harvester optimal range"
+                        },
+                        {
+                            "Parameter": "Manual harvest",
+                            "Value": "20-28%",
+                            "Notes": "Cobs harvested, husked, dried on cob"
+                        },
+                        {
+                            "Parameter": "Field dry to < 14%",
+                            "Value": "14-20 days drying",
+                            "Notes": "Depends on weather and layer thickness"
+                        },
+                        {
+                            "Parameter": "Target storage moisture",
+                            "Value": "<13%",
+                            "Notes": "Critical to prevent Aspergillus aflatoxin"
+                        },
+                        {
+                            "Parameter": "Safe storage moisture",
+                            "Value": "<12.5%",
+                            "Notes": "Long-term storage >6 months"
+                        },
+                        {
+                            "Parameter": "Threshing method",
+                            "Value": "Mechanical thresher",
+                            "Notes": "At 15-18% moisture; less breakage"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "9.3 Post-Harvest Drying Protocol",
+                    "Table": [
+                        {
+                            "Drying Method": "Field drying (on plant)",
+                            "Conditions Required": "Dry weather, sunny days",
+                            "Time to <14%": "5-10 days",
+                            "Remarks": "Leave cobs on standing stover"
+                        },
+                        {
+                            "Drying Method": "Cob drying (sun drying)",
+                            "Conditions Required": "Spread in single layer, 3-4 hrs sunday/",
+                            "Time to <14%": "10-15 days",
+                            "Remarks": "Turn daily for uniform drying"
+                        },
+                        {
+                            "Drying Method": "Mechanical drier",
+                            "Conditions Required": "Hot air @ 45\u00b0C max",
+                            "Time to <14%": "8-12 hrs",
+                            "Remarks": "Best for large quantities; seed quality preserved"
+                        },
+                        {
+                            "Drying Method": "Shade drying",
+                            "Conditions Required": "Good air circulation",
+                            "Time to <14%": "20-30 days",
+                            "Remarks": "Only for small quantities"
+                        }
+                    ],
+                    "Important Notes": [
+                        "CRITICAL: Aflatoxin Prevention",
+                        "Aflatoxin (Aspergillus flavus) grows rapidly in maize >14% moisture with >25\u00b0C temperature. Aflatoxin is carcinogenic; contaminated grain is rejected at all markets and export.",
+                        "NEVER store grain > 14% moisture; test moisture with meter before storage.",
+                        "Use perforated metal bins or reinforced plastic silos; add 3-4 neem leaves per bag.",
+                        "Inspect stored grain every 30 days for insect damage, mould, or moisture rise."
+                    ]
+                },
+                {
+                    "Heading": "9.4 Storage Management",
+                    "Table": [
+                        {
+                            "Storage Aspect": "Container type",
+                            "Recommendation": "Hermetic/metal silo preferred; reinforced polypropylene bags for short-term"
+                        },
+                        {
+                            "Storage Aspect": "Grain moisture",
+                            "Recommendation": "< 13% before storage: <12.5% for > 6 months storage"
+                        },
+                        {
+                            "Storage Aspect": "Storage temperature",
+                            "Recommendation": "<25\u00b0C ideal; shade storage in summer"
+                        },
+                        {
+                            "Storage Aspect": "Pest control",
+                            "Recommendation": "Aluminium phosphide (3 tablets / tonne) in sealed silo 72 hr exposure"
+                        },
+                        {
+                            "Storage Aspect": "Bag stacking",
+                            "Recommendation": "Max 10 bags high; on pallets (15 cm off floor); 50 cm from wall"
+                        },
+                        {
+                            "Storage Aspect": "Inspection frequency",
+                            "Recommendation": "Every 30 days check moisture, insect frass, mould odour"
+                        },
+                        {
+                            "Storage Aspect": "Certification storage",
+                            "Recommendation": "Grade A: < 12% moisture, < 4% broken, < 1.5% foreign matter"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "9.5 Harvest & Storage Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Black layer visible on 80%+ kernels",
+                            "Action (THEN)": "Physiological maturity reached begin harvest planning"
+                        },
+                        {
+                            "Condition (IF)": "Grain moisture > 25% at harvest",
+                            "Action (THEN)": "Delay harvest 7-10 days or use mechanical drier post-harvest"
+                        },
+                        {
+                            "Condition (IF)": "Grain moisture < 20% at harvest",
+                            "Action (THEN)": "Risk of shattering harvest immediately, thresh carefully"
+                        },
+                        {
+                            "Condition (IF)": "Storage moisture > 14%",
+                            "Action (THEN)": "Do NOT store continue drying until <13% is confirmed"
+                        },
+                        {
+                            "Condition (IF)": "Insect damage found in stored grain",
+                            "Action (THEN)": "Fumigate with aluminium phosphide; seal storage for 72 hrs"
+                        },
+                        {
+                            "Condition (IF)": "Stalk rot affecting >20% plants",
+                            "Action (THEN)": "Harvest immediately regardless of moisture loss is imminent"
+                        },
+                        {
+                            "Condition (IF)": "Rain forecast at harvest",
+                            "Action (THEN)": "Harvest within 2 days; arrange covered drying facility"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Complete Decision Rules Summary": [
+        {
+            "Priority": "CRITICAL",
+            "Condition (IF)": "Heavy rainfall > 50 mm at sowing",
+            "Action (THEN)": "Delay sowing 4-5 days; ensure drainage"
+        },
+        {
+            "Priority": "CRITICAL",
+            "Condition (IF)": "Germination < 70% at 10-12 DAS",
+            "Action (THEN)": "Immediate gap filling with pre-germinated seed"
+        },
+        {
+            "Priority": "CRITICAL",
+            "Condition (IF)": "Silk emergence visible",
+            "Action (THEN)": "Irrigate SAME DAY - YIELD CRITICAL"
+        },
+        {
+            "Priority": "CRITICAL",
+            "Condition (IF)": "Moisture stress at silking (any)",
+            "Action (THEN)": "YIELD LOSS VERY HIGH emergency irrigation"
+        },
+        {
+            "Priority": "CRITICAL",
+            "Condition (IF)": "Storage grain moisture > 14%",
+            "Action (THEN)": "Do NOT store continue drying"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Germination < 85% (seed lot)",
+            "Action (THEN)": "Reject seed lot; procure certified seed"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Soil pH < 5.5",
+            "Action (THEN)": "Apply lime 2-4 q/acre; wait 6-8 weeks"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Tassel visible",
+            "Action (THEN)": "Irrigation Priority = HIGH; irrigate within 48 hrs"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "No rain > 10 days at tasseling",
+            "Action (THEN)": "Irrigate @ 4-5 cm immediately"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Temperature > 35\u00b0C during silking",
+            "Action (THEN)": "Irrigate + spray K2SO4 0.5%"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Stalk rot > 20% plants",
+            "Action (THEN)": "Harvest immediately regardless of moisture"
+        },
+        {
+            "Priority": "HIGH",
+            "Condition (IF)": "Black layer visible 80%+ kernels",
+            "Action (THEN)": "Begin harvest planning"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Plant age = 25 DAS",
+            "Action (THEN)": "Apply 1st urea top dressing @ 30 kg/acre"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Plant age = 40-45 DAS",
+            "Action (THEN)": "Apply 2nd urea @ 15 kg/acre + earthing-up"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "FAW damage > 5% whoris",
+            "Action (THEN)": "Spray Emamectin Benzoate 4 g/15L water"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Shoot fly dead heart > 5%",
+            "Action (THEN)": "Spray Chlorpyrifos 20 EC 2.5 ml/L"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "No rain > 15 days + wilting (V-stage)",
+            "Action (THEN)": "Irrigate @ 3-4 cm immediately"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Soil K < 140 kg/ha at grain fill",
+            "Action (THEN)": "Apply MOP 25 kg/acre or foliar K2SO4"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Milk stage (R3) visible",
+            "Action (THEN)": "Foliar K2SO4 0.5% spray; maintain irrigation"
+        },
+        {
+            "Priority": "MEDIUM",
+            "Condition (IF)": "Insect damage in storage",
+            "Action (THEN)": "Fumigate with AIP; seal 72 hrs"
+        }
+    ]
+}

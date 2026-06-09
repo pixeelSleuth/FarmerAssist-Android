@@ -1,0 +1,459 @@
+{
+  "knowledge_base": {
+    "title": "Fertilizer & Nutrient Deficiency Knowledge Base",
+    "crop": "Maize (Zea mays L.)",
+    "region": "Dharwad, Karnataka, India",
+    "soil_profile": {
+      "dominant_types": ["Medium to Deep Black Cotton Soil (Vertisols)", "Red Laterite Soil (Alfisols)"],
+      "avg_pH": "6.5 – 8.0",
+      "organic_carbon": "Low to Medium (0.3 – 0.6%)",
+      "common_deficiencies": ["Zinc", "Sulphur", "Boron", "Nitrogen"]
+    },
+    "climate": {
+      "type": "Semi-Arid Tropical",
+      "avg_annual_rainfall_mm": 750,
+      "seasons": ["Kharif (June – October)", "Rabi (November – February)"]
+    },
+    "source_authority": "University of Agricultural Sciences (UAS), Dharwad – Package of Practices",
+    "recommended_npk_baseline": {
+      "composite_varieties_kg_per_ha": "120:60:40",
+      "hybrid_varieties_kg_per_ha": "150:75:60",
+      "unit": "N:P2O5:K2O (kg/ha)"
+    },
+    "nutrients": [
+      {
+        "id": 1,
+        "element": "Nitrogen",
+        "symbol": "N",
+        "atomic_number": 7,
+        "category": "Primary Macronutrient",
+        "deficiency": {
+          "name": "Nitrogen Deficiency",
+          "common_name": "Nitrogen Starvation / Chlorosis",
+          "symptoms": [
+            "Yellowing (chlorosis) beginning from the tips of older/lower leaves",
+            "V-shaped yellow discoloration progressing up the midrib",
+            "Overall pale-green to yellow plant appearance",
+            "Stunted and spindly plant growth",
+            "Reduced tillering and poor canopy development",
+            "Early senescence of lower leaves turning brown"
+          ],
+          "visual_description": "Yellow V-shaped pattern starting at leaf tip of lower leaves, moving upward along the midrib toward the base",
+          "affected_plant_parts": ["Lower leaves", "Older foliage", "Whole plant (severe cases)"],
+          "critical_growth_stages": ["V3–V6 (vegetative)", "VT (tasseling)"],
+          "distinction_notes": "Unlike Sulphur deficiency, N deficiency starts on older/lower leaves (mobile nutrient)"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "hybrid": 150,
+            "composite": 120
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (at sowing)",
+              "fraction": "1/3 of total N",
+              "method": "Band placement / incorporation"
+            },
+            {
+              "timing": "30 DAS (knee-height stage)",
+              "fraction": "1/3 of total N",
+              "method": "Top-dressing, soil application"
+            },
+            {
+              "timing": "45–50 DAS (tasseling/pre-flowering)",
+              "fraction": "1/3 of total N",
+              "method": "Top-dressing, avoid leaf contact"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "Urea",
+              "n_percent": 46,
+              "qty_for_120kg_N_kg_per_ha": 261,
+              "notes": "Most economical; splits recommended to reduce volatilization"
+            },
+            {
+              "name": "DAP (Di-Ammonium Phosphate)",
+              "n_percent": 18,
+              "notes": "Used as basal, provides both N and P"
+            },
+            {
+              "name": "Ammonium Sulphate",
+              "n_percent": 21,
+              "notes": "Preferred on alkaline black soils; also supplies Sulphur"
+            }
+          ],
+          "critical_soil_threshold_kg_per_ha": "< 280 kg available N/ha (low)"
+        }
+      },
+      {
+        "id": 2,
+        "element": "Phosphorus",
+        "symbol": "P",
+        "atomic_number": 15,
+        "category": "Primary Macronutrient",
+        "deficiency": {
+          "name": "Phosphorus Deficiency",
+          "common_name": "Phosphorus Starvation",
+          "symptoms": [
+            "Purple or reddish-purple discoloration on undersides and margins of lower leaves",
+            "Dark green upper leaf surface with purple tinge",
+            "Slender, stiff, erect plant posture",
+            "Delayed silking and tasseling (late maturity)",
+            "Poor and shallow root system development",
+            "Reduced kernel set and poor cob development"
+          ],
+          "visual_description": "Reddish-purple pigmentation (anthocyanin accumulation) on leaf margins and undersides, especially in young seedlings under cold/wet conditions",
+          "affected_plant_parts": ["Leaf undersides", "Stem", "Cobs", "Roots"],
+          "critical_growth_stages": ["V1–V4 (early seedling)", "Root establishment phase"],
+          "distinction_notes": "Purple coloration can also appear under cold temperatures even without deficiency; confirm with soil test"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "hybrid_P2O5": 75,
+            "composite_P2O5": 60
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (at sowing – entire dose)",
+              "fraction": "100% of total P2O5",
+              "method": "Band placement below seed, 5 cm deep"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "DAP (Di-Ammonium Phosphate)",
+              "p2o5_percent": 46,
+              "n_percent": 18,
+              "qty_for_75kg_P2O5_kg_per_ha": 163,
+              "notes": "Most popular basal fertilizer in Dharwad; provides N and P together"
+            },
+            {
+              "name": "SSP (Single Super Phosphate)",
+              "p2o5_percent": 16,
+              "notes": "Also supplies Sulphur (12%) and Calcium; preferred for Zn-deficient soils"
+            },
+            {
+              "name": "TSP (Triple Super Phosphate)",
+              "p2o5_percent": 46,
+              "notes": "High analysis, no N supply"
+            }
+          ],
+          "critical_soil_threshold_ppm": "< 10 ppm available P (Olsen's method) – Low for Dharwad soils"
+        }
+      },
+      {
+        "id": 3,
+        "element": "Potassium",
+        "symbol": "K",
+        "atomic_number": 19,
+        "category": "Primary Macronutrient",
+        "deficiency": {
+          "name": "Potassium Deficiency",
+          "common_name": "Leaf Scorch / Firing",
+          "symptoms": [
+            "Marginal leaf burn (scorching) on tips and edges of lower/older leaves",
+            "Yellowing followed by brown necrotic edges starting at leaf tip",
+            "Weak stalks prone to lodging",
+            "Reduced stalk diameter and poor standability",
+            "Increased susceptibility to stalk rots (Fusarium, Gibberella)",
+            "Poor cob fill and light kernels"
+          ],
+          "visual_description": "Brown, crispy, necrotic leaf margins and tips on older leaves progressing inward, giving a 'fired' appearance",
+          "affected_plant_parts": ["Lower leaf margins and tips", "Stalk", "Roots"],
+          "critical_growth_stages": ["V6–V10 (rapid growth)", "Grain fill (R2–R5)"],
+          "distinction_notes": "K deficiency symptoms on margins/tips vs. N which shows V-shape along midrib"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "hybrid_K2O": 60,
+            "composite_K2O": 40
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (50% at sowing)",
+              "fraction": "50% of total K2O",
+              "method": "Incorporation at sowing"
+            },
+            {
+              "timing": "30 DAS (50% balance)",
+              "fraction": "50% of total K2O",
+              "method": "Top-dressing"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "MOP (Muriate of Potash / KCl)",
+              "k2o_percent": 60,
+              "qty_for_60kg_K2O_kg_per_ha": 100,
+              "notes": "Most common and economical; avoid on Cl-sensitive stages"
+            },
+            {
+              "name": "SOP (Sulphate of Potash)",
+              "k2o_percent": 50,
+              "notes": "Preferred where both K and S are needed; premium cost"
+            }
+          ],
+          "critical_soil_threshold_ppm": "< 110 ppm available K (NH4OAc method) – Low"
+        }
+      },
+      {
+        "id": 4,
+        "element": "Zinc",
+        "symbol": "Zn",
+        "atomic_number": 30,
+        "category": "Micronutrient",
+        "deficiency": {
+          "name": "Zinc Deficiency",
+          "common_name": "White Bud Disease / Khaira Disease",
+          "symptoms": [
+            "Broad white to yellow interveinal stripes on young leaves (white bud)",
+            "White or bleached bands/stripes running lengthwise on newly emerging leaves",
+            "Stunted and rosette plant appearance",
+            "Short internodes – compressed plant height",
+            "Delayed emergence of new leaves",
+            "Poor tasseling and silking",
+            "Reduced grain number and cob length"
+          ],
+          "visual_description": "Characteristic white/yellow stripes between veins on younger upper leaves; veins remain green while interveinal areas bleach out",
+          "affected_plant_parts": ["Young upper leaves", "Growing point", "Cobs"],
+          "critical_growth_stages": ["V1–V5 (early seedling)", "V8–V10 (rapid growth)"],
+          "distinction_notes": "Affects younger leaves (immobile nutrient); very common in Dharwad black cotton soils with high pH (>7.5)",
+          "prevalence_dharwad": "HIGH – One of the most widespread micronutrient deficiencies in Dharwad soils"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "ZnSO4_7H2O": 25,
+            "elemental_Zn": 5
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (at sowing)",
+              "fraction": "Full dose",
+              "method": "Soil incorporation; avoid direct contact with seed"
+            },
+            {
+              "timing": "Foliar spray (if deficiency appears)",
+              "fraction": "0.5% ZnSO4 + 0.25% lime solution",
+              "method": "Two sprays at 25 DAS and 40 DAS"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "Zinc Sulphate Heptahydrate (ZnSO4·7H2O)",
+              "zn_percent": 21,
+              "notes": "Standard recommendation; apply every 3–4 seasons if soil test shows adequacy"
+            },
+            {
+              "name": "Zinc Sulphate Monohydrate (ZnSO4·H2O)",
+              "zn_percent": 33,
+              "notes": "Higher concentration; 15 kg/ha equivalent dose"
+            },
+            {
+              "name": "Chelated Zinc (EDTA-Zn)",
+              "notes": "For foliar application; more efficient in alkaline conditions"
+            }
+          ],
+          "critical_soil_threshold_ppm": "< 0.6 ppm DTPA-extractable Zn – Deficient (most Dharwad Vertisols fall below this)"
+        }
+      },
+      {
+        "id": 5,
+        "element": "Sulphur",
+        "symbol": "S",
+        "atomic_number": 16,
+        "category": "Secondary Macronutrient",
+        "deficiency": {
+          "name": "Sulphur Deficiency",
+          "common_name": "Sulphur Chlorosis",
+          "symptoms": [
+            "Uniform yellowing of young/upper leaves (unlike N – starts on newer growth)",
+            "Pale green to lemon-yellow discoloration of emerging leaves",
+            "Older leaves remain green while younger leaves turn yellow",
+            "Reduced plant height and delayed maturity",
+            "Poor protein synthesis affecting grain quality",
+            "Striped chlorosis pattern on young leaves in severe cases"
+          ],
+          "visual_description": "Uniform pale-yellow to lemon coloration of younger upper leaves while lower leaves remain green; no distinct stripe pattern",
+          "affected_plant_parts": ["Young upper leaves", "Growing tip", "New foliage"],
+          "critical_growth_stages": ["V3–V8 (vegetative growth)", "Pre-tasseling"],
+          "distinction_notes": "Key distinction: S deficiency appears on younger leaves (immobile), N on older leaves (mobile). Increasingly observed in Dharwad due to shift from SSP/AS to Urea+DAP combinations",
+          "prevalence_dharwad": "INCREASING – Sulfur deficiency has risen significantly due to widespread use of S-free fertilizers (Urea + DAP)"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "elemental_S": 30,
+            "via_gypsum_CaSO4": 200
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (at sowing)",
+              "fraction": "Full dose",
+              "method": "Soil incorporation along with other basal fertilizers"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "Gypsum (CaSO4·2H2O)",
+              "s_percent": 17,
+              "qty_for_30kg_S_kg_per_ha": 176,
+              "notes": "Most economical S source; also improves soil structure; preferred for Dharwad black soils"
+            },
+            {
+              "name": "SSP (Single Super Phosphate)",
+              "s_percent": 12,
+              "notes": "Simultaneously supplies P and S; excellent choice for Dharwad soils"
+            },
+            {
+              "name": "Ammonium Sulphate",
+              "s_percent": 24,
+              "n_percent": 21,
+              "notes": "Supplies both N and S; good for alkaline soils"
+            },
+            {
+              "name": "Sulphate of Potash (SOP)",
+              "s_percent": 18,
+              "notes": "Supplies both K and S"
+            }
+          ],
+          "critical_soil_threshold_ppm": "< 10 ppm available S (CaCl2 extraction) – Deficient"
+        }
+      },
+      {
+        "id": 6,
+        "element": "Boron",
+        "symbol": "B",
+        "atomic_number": 5,
+        "category": "Micronutrient",
+        "deficiency": {
+          "name": "Boron Deficiency",
+          "common_name": "Tassel Ear / Heart Rot",
+          "symptoms": [
+            "Death or distortion of growing point (apical meristem)",
+            "Thick, leathery, brittle leaves with wavy margins",
+            "Failure of tassel to emerge fully (tassel ear disorder)",
+            "Poor or absent silk emergence leading to barren cobs",
+            "Hollow stem at internodes (internal decay)",
+            "Short, barren cobs with poor kernel set",
+            "Brittle, discolored brace roots"
+          ],
+          "visual_description": "Growing point death; younger leaves appear thick, crinkled, and fail to unfurl; tassel remains trapped or barren; silks absent or few",
+          "affected_plant_parts": ["Growing point / apical meristem", "Young leaves", "Tassel", "Silk", "Cob", "Stem pith"],
+          "critical_growth_stages": ["V6–V10 (vegetative)", "VT–R1 (tasseling to silking)"],
+          "distinction_notes": "Critical during pollination period; B deficiency severely impacts reproductive success; common in light-textured leached soils of Dharwad red soil tracts",
+          "prevalence_dharwad": "MODERATE – More prevalent in well-leached red soils (Alfisols) than black soils in Dharwad district"
+        },
+        "recommendation_dharwad": {
+          "dose_kg_per_ha": {
+            "boron_elemental_B": 1.0,
+            "borax_Na2B4O7_10H2O": 10
+          },
+          "application_schedule": [
+            {
+              "timing": "Basal (at sowing)",
+              "fraction": "Full dose",
+              "method": "Mix Borax with soil/FYM before sowing; avoid direct seed contact"
+            },
+            {
+              "timing": "Foliar spray (if deficiency appears at V6–V8)",
+              "fraction": "0.2% Boric Acid solution",
+              "method": "Two foliar sprays – at 30 DAS and at pre-tasseling (45–50 DAS)"
+            }
+          ],
+          "fertilizer_sources": [
+            {
+              "name": "Borax (Na2B4O7·10H2O)",
+              "b_percent": 10.5,
+              "qty_for_1kg_B_kg_per_ha": 10,
+              "notes": "Standard soil application source; mix thoroughly in soil"
+            },
+            {
+              "name": "Boric Acid (H3BO3)",
+              "b_percent": 17,
+              "notes": "Better suited for foliar spray; dissolves readily in water"
+            },
+            {
+              "name": "Solubor",
+              "b_percent": 20,
+              "notes": "Highly soluble; used for foliar application especially during silking"
+            }
+          ],
+          "critical_soil_threshold_ppm": "< 0.5 ppm hot-water soluble B – Deficient"
+        }
+      }
+    ],
+    "integrated_nutrient_management": {
+      "fym_recommendation_tonnes_per_ha": 10,
+      "fym_timing": "3–4 weeks before sowing",
+      "biofertilizers": [
+        {
+          "name": "Azospirillum",
+          "dose_g_per_kg_seed": 25,
+          "benefit": "BNF – fixes 20–25 kg N/ha; reduces chemical N requirement by 10–15%"
+        },
+        {
+          "name": "PSB (Phosphate Solubilizing Bacteria)",
+          "dose_g_per_kg_seed": 25,
+          "benefit": "Improves P availability; reduces chemical P requirement by 10–15%"
+        },
+        {
+          "name": "VAM (Vesicular-Arbuscular Mycorrhiza)",
+          "dose_g_per_kg_seed": 25,
+          "benefit": "Enhances Zn and P uptake in Dharwad soils"
+        }
+      ],
+      "soil_test_based_recommendation": true,
+      "soil_testing_lab": "Soil Testing Laboratory, UAS Dharwad / Department of Agriculture, Dharwad"
+    },
+    "quick_reference_summary": [
+      {
+        "deficiency": "Nitrogen",
+        "symbol": "N",
+        "symptoms": "Yellowing from lower leaves upward; V-shaped yellow pattern along midrib",
+        "affected_leaves": "Older / Lower",
+        "recommended_dose_kg_ha": "120–150 kg N/ha",
+        "primary_source": "Urea / DAP / Ammonium Sulphate"
+      },
+      {
+        "deficiency": "Phosphorus",
+        "symbol": "P",
+        "symptoms": "Purple-red leaf margins and undersides; delayed maturity; poor roots",
+        "affected_leaves": "Lower / Whole plant",
+        "recommended_dose_kg_ha": "60–75 kg P2O5/ha",
+        "primary_source": "DAP / SSP / TSP"
+      },
+      {
+        "deficiency": "Potassium",
+        "symbol": "K",
+        "symptoms": "Brown scorching on leaf margins and tips; weak stalks; lodging",
+        "affected_leaves": "Lower (margin burn)",
+        "recommended_dose_kg_ha": "40–60 kg K2O/ha",
+        "primary_source": "MOP (Muriate of Potash)"
+      },
+      {
+        "deficiency": "Zinc",
+        "symbol": "Zn",
+        "symptoms": "White/yellow interveinal stripes on young leaves; white bud; stunted growth",
+        "affected_leaves": "Younger / Upper",
+        "recommended_dose_kg_ha": "25 kg ZnSO4·7H2O/ha",
+        "primary_source": "Zinc Sulphate"
+      },
+      {
+        "deficiency": "Sulphur",
+        "symbol": "S",
+        "symptoms": "Uniform yellowing of young upper leaves; older leaves remain green",
+        "affected_leaves": "Younger / Upper",
+        "recommended_dose_kg_ha": "30 kg S/ha (via Gypsum ~175 kg/ha)",
+        "primary_source": "Gypsum / SSP / Ammonium Sulphate"
+      },
+      {
+        "deficiency": "Boron",
+        "symbol": "B",
+        "symptoms": "Growing point death; poor silking/tasseling; hollow stem; barren cobs",
+        "affected_leaves": "Young leaves / Growing tip",
+        "recommended_dose_kg_ha": "10 kg Borax/ha (= 1 kg B/ha)",
+        "primary_source": "Borax / Boric Acid"
+      }
+    ]
+  }
+}

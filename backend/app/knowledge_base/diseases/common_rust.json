@@ -1,0 +1,84 @@
+{
+  "name": "Common Rust",
+  "causal_organism": "Puccinia sorghi",
+  "crop_affected": "Maize (Corn)",
+  "symptoms": [
+    "Small, circular to elongated brick-red to cinnamon-brown pustules (uredia) on both upper and lower leaf surfaces",
+    "Pustules rupture to release powdery, brick-red urediniospores giving a rusty appearance",
+    "As disease advances, pustules darken to black (telia stage — teliospores replace urediniospores)",
+    "Severely infected leaves turn yellow, dry out, and die prematurely",
+    "Pustules may also appear on leaf sheaths, husks, and stalks in heavy infections",
+    "High spore density gives leaves a characteristic rusty, reddish-brown powdery coating",
+    "Reduced grain filling due to loss of photosynthetically active leaf area"
+  ],
+  "favorable_conditions": [
+    "Cool temperatures of 16–23°C (optimum ~16–20°C)",
+    "Relative humidity above 95% with free moisture on leaf surfaces",
+    "Prolonged dew or fog that keeps leaves wet for extended periods",
+    "Sustained cloudy weather with reduced sunlight intensity",
+    "Wind dispersal of urediniospores from infected plants or alternate hosts (Oxalis spp.)",
+    "Early-season planting during cool, wet periods",
+    "Susceptible crop growth stages — tasseling and silking are most vulnerable"
+  ],
+  "prevention": [
+    "Plant resistant or tolerant hybrids carrying rust resistance genes (Rp genes)",
+    "Avoid late planting that coincides with cool and humid seasons",
+    "Practice crop rotation to reduce inoculum buildup in the field",
+    "Remove and destroy volunteer maize plants and infected plant material",
+    "Regular field scouting especially during tasseling and silking stages",
+    "Balanced potassium fertilization to strengthen plant cell walls and immunity",
+    "Maintain proper plant spacing to enhance airflow and reduce leaf wetness duration"
+  ],
+  "chemical_control": [
+    "Mancozeb 75% WP @ 2.5 g/L water — apply at early infection stage",
+    "Propiconazole 25% EC @ 1.0 mL/L water",
+    "Tebuconazole 25.9% EC @ 1.0 mL/L water",
+    "Azoxystrobin 23% SC @ 1.0 mL/L water",
+    "Trifloxystrobin 25% + Tebuconazole 50% WG @ 0.5 g/L water",
+    "Hexaconazole 5% SC @ 2.0 mL/L water",
+    "Kresoxim-methyl 44.3% SC @ 1.0 mL/L water",
+    "Repeat sprays every 10–14 days if disease pressure persists"
+  ],
+  "kannada_translation": {
+    "name": "ಸಾಮಾನ್ಯ ತುಕ್ಕು ರೋಗ (Common Rust)",
+    "causal_organism": "ಪಕ್ಸಿನಿಯಾ ಸೋರ್ಗಿ ಎಂಬ ಶಿಲೀಂಧ್ರ",
+    "crop_affected": "ಮೆಕ್ಕೆ ಜೋಳ",
+    "symptoms": [
+      "ಎಲೆಗಳ ಮೇಲ್ಮೈ ಮತ್ತು ಕೆಳಮೈ ಎರಡರ ಮೇಲೂ ಚಿಕ್ಕ, ದುಂಡು ಅಥವಾ ಉದ್ದನೆಯ ಇಟ್ಟಿಗೆ-ಕೆಂಪು ಗುಳ್ಳೆಗಳು (ಯೂರೇಡಿಯಾ) ಕಾಣಿಸುತ್ತವೆ",
+      "ಗುಳ್ಳೆಗಳು ಒಡೆದು ಪುಡಿ ರೂಪದ ಇಟ್ಟಿಗೆ-ಕೆಂಪು ಬಣ್ಣದ ಬೀಜಕಗಳನ್ನು ಚೆಲ್ಲಿ ತುಕ್ಕು ಹಿಡಿದ ನೋಟ ನೀಡುತ್ತವೆ",
+      "ರೋಗ ಮುಂದುವರೆದಂತೆ ಗುಳ್ಳೆಗಳು ಕಪ್ಪು ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತವೆ (ಟೇಲಿಯಾ ಹಂತ)",
+      "ತೀವ್ರ ಸೋಂಕಿನಲ್ಲಿ ಎಲೆಗಳು ಹಳದಿಯಾಗಿ, ಒಣಗಿ, ಅಕಾಲಿಕವಾಗಿ ಸಾಯುತ್ತವೆ",
+      "ತೀವ್ರ ಸೋಂಕಿನಲ್ಲಿ ಎಲೆ ಕಂದು, ಹೊದಿಕೆ ಮತ್ತು ಕಾಂಡದ ಮೇಲೂ ಗುಳ್ಳೆಗಳು ಕಾಣಿಸಬಹುದು",
+      "ಹೆಚ್ಚಿನ ಬೀಜಕ ಸಾಂದ್ರತೆಯಿಂದ ಎಲೆಗಳು ತುಕ್ಕು ಹಿಡಿದ ಕೆಂಪು-ಕಂದು ಪುಡಿಯಿಂದ ಮುಚ್ಚಿಕೊಳ್ಳುತ್ತವೆ",
+      "ದ್ಯುತಿಸಂಶ್ಲೇಷಣಾ ಎಲೆ ಪ್ರದೇಶ ಕಡಿಮೆಯಾಗಿ ಕಾಳು ತುಂಬುವಿಕೆ ಕಡಿಮೆಯಾಗುತ್ತದೆ"
+    ],
+    "favorable_conditions": [
+      "16–23°C ತಂಪಾದ ತಾಪಮಾನ (ಅತ್ಯಂತ ಸೂಕ್ತ ~16–20°C)",
+      "95% ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ ಮತ್ತು ಎಲೆ ಮೇಲ್ಮೈನಲ್ಲಿ ಮುಕ್ತ ತೇವ",
+      "ದೀರ್ಘ ಸಮಯ ಎಲೆಗಳನ್ನು ತೇವವಾಗಿಡುವ ಇಬ್ಬನಿ ಅಥವಾ ಮಂಜು",
+      "ಕಡಿಮೆ ಬಿಸಿಲಿನ ದೀರ್ಘ ಮೋಡ ಕವಿದ ವಾತಾವರಣ",
+      "ಸೋಂಕಿತ ಸಸ್ಯಗಳಿಂದ ಅಥವಾ ಪರ್ಯಾಯ ಹೋಸ್ಟ್‌ಗಳಿಂದ ಗಾಳಿಯ ಮೂಲಕ ಬೀಜಕಗಳ ಹರಡುವಿಕೆ",
+      "ತಂಪು ಮತ್ತು ತೇವ ಅವಧಿಯಲ್ಲಿ ಮೊದಲ ಋತುವಿನ ಬಿತ್ತನೆ",
+      "ಗರಿ ಮತ್ತು ರೇಷ್ಮೆ ಬೆಳವಣಿಗೆ ಹಂತದ ಸಸ್ಯಗಳು ಅತಿ ಸಂವೇದನಾಶೀಲ"
+    ],
+    "prevention": [
+      "ತುಕ್ಕು ನಿರೋಧಕ ಜೀನ್‌ಗಳಿರುವ (Rp ಜೀನ್) ನಿರೋಧಕ ಅಥವಾ ಸಹನಶೀಲ ಸಂಕರ ತಳಿ ಬಿತ್ತಿರಿ",
+      "ತಂಪು ಮತ್ತು ಆರ್ದ್ರ ಋತುಗಳಲ್ಲಿ ತಡ ಬಿತ್ತನೆ ತಪ್ಪಿಸಿ",
+      "ಹೊಲದಲ್ಲಿ ರೋಗಕಾರಕ ಸಂಗ್ರಹ ಕಡಿಮೆ ಮಾಡಲು ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ",
+      "ಸ್ವಯಂ ಬೆಳೆದ ಮೆಕ್ಕೆ ಜೋಳ ಮತ್ತು ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದು ನಾಶಪಡಿಸಿ",
+      "ಗರಿ ಮತ್ತು ರೇಷ್ಮೆ ಹಂತದಲ್ಲಿ ವಿಶೇಷವಾಗಿ ಕ್ಷೇತ್ರ ಪರಿಶೀಲಿಸಿ",
+      "ಸಸ್ಯ ಕೋಶ ಗೋಡೆ ಮತ್ತು ನಿರೋಧಕ ಶಕ್ತಿ ಸುಧಾರಿಸಲು ಸಮತೋಲಿತ ಪೊಟ್ಯಾಶಿಯಂ ಗೊಬ್ಬರ ನೀಡಿ",
+      "ಗಾಳಿ ಸಂಚಾರ ಸುಧಾರಿಸಿ ಎಲೆ ತೇವ ಅವಧಿ ಕಡಿಮೆ ಮಾಡಲು ಸರಿಯಾದ ಅಂತರದಲ್ಲಿ ನಾಟಿ ಮಾಡಿ"
+    ],
+    "chemical_control": [
+      "ಮ್ಯಾಂಕೋಝೆಬ್ 75% WP @ 2.5 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ಮೊದಲ ಸೋಂಕಿನ ಹಂತದಲ್ಲಿ ಹಾಕಿ",
+      "ಪ್ರೊಪಿಕೊನಾಝೋಲ್ 25% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಟೆಬ್ಯುಕೊನಾಝೋಲ್ 25.9% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಆಝಾಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ 23% SC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಟ್ರೈಫ್ಲಾಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ 25% + ಟೆಬ್ಯುಕೊನಾಝೋಲ್ 50% WG @ 0.5 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು",
+      "ಹೆಕ್ಸಾಕೊನಾಝೋಲ್ 5% SC @ 2.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಕ್ರೆಸಾಕ್ಸಿಮ್-ಮೀಥೈಲ್ 44.3% SC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ರೋಗದ ಒತ್ತಡ ಮುಂದುವರೆದರೆ ಪ್ರತಿ 10–14 ದಿನಗಳಿಗೊಮ್ಮೆ ಮರು ಸಿಂಪಡಿಸಿ"
+    ]
+  }
+}

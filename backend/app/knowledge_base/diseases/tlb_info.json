@@ -1,0 +1,86 @@
+{
+  "name": "Turcicum Leaf Blight (TLB)",
+  "causal_organism": "Exserohilum turcicum (formerly Helminthosporium turcicum)",
+  "crop_affected": "Maize (Corn)",
+  "symptoms": [
+    "Long, elliptical, cigar-shaped grayish-green to tan lesions on leaves (2.5–15 cm long)",
+    "Lesions have wavy, irregular margins and mature to light brown or straw color",
+    "Dark sooty appearance on lesions due to fungal sporulation (conidia)",
+    "Infection starts on lower/older leaves and progresses upward toward the ear leaf",
+    "Severely infected leaves dry out prematurely, drastically reducing photosynthesis",
+    "Lesions may coalesce, causing large blighted areas across the entire leaf blade",
+    "Infected ears may show husk and kernel rot under severe infection pressure"
+  ],
+  "favorable_conditions": [
+    "Temperature range of 18–27°C (optimum 20–25°C)",
+    "Relative humidity above 80%",
+    "Prolonged leaf wetness exceeding 6 hours per day",
+    "Frequent rainfall and overcast, cloudy weather",
+    "Dense plant canopy with poor air circulation",
+    "Cool nights followed by warm, humid days",
+    "Presence of infected crop debris carrying overwintering conidia in the field"
+  ],
+  "prevention": [
+    "Grow resistant or tolerant hybrid varieties (Ht gene-carrying hybrids)",
+    "Practice crop rotation with non-host crops such as soybean or wheat",
+    "Deep plowing to bury infected plant debris below soil surface",
+    "Remove and destroy infected plant residues after harvest",
+    "Maintain balanced fertilization; avoid excessive nitrogen application",
+    "Ensure proper plant spacing to improve air circulation within canopy",
+    "Early sowing to avoid peak disease-prone humid periods",
+    "Seed treatment with systemic fungicides before sowing"
+  ],
+  "chemical_control": [
+    "Mancozeb 75% WP @ 2.0 g/L water — spray at first sign of disease",
+    "Zineb 75% WP @ 2.0 g/L water",
+    "Propiconazole 25% EC @ 1.0 mL/L water",
+    "Tebuconazole 25.9% EC @ 1.0 mL/L water",
+    "Azoxystrobin 23% SC @ 1.0 mL/L water",
+    "Carbendazim 50% WP @ 1.0 g/L water",
+    "Chlorothalonil 75% WP @ 2.0 g/L water",
+    "Repeat spray every 10–15 days if disease pressure is high"
+  ],
+  "kannada_translation": {
+    "name": "ಟರ್ಸಿಕಂ ಎಲೆ ಸುಟ್ಟ ರೋಗ (TLB)",
+    "causal_organism": "ಎಕ್ಸ್‌ಸೆರೋಹಿಲಂ ಟರ್ಸಿಕಂ ಎಂಬ ಶಿಲೀಂಧ್ರ",
+    "crop_affected": "ಮೆಕ್ಕೆ ಜೋಳ",
+    "symptoms": [
+      "ಎಲೆಗಳ ಮೇಲೆ ಉದ್ದ, ಅಂಡಾಕಾರದ, ಸಿಗಾರ್ ಆಕಾರದ ಬೂದು-ಹಸಿರು ಬಣ್ಣದ ಕಲೆಗಳು (2.5–15 ಸೆಂ.ಮೀ ಉದ್ದ)",
+      "ಕಲೆಗಳ ಅಂಚುಗಳು ಅಲೆಯಂತಿದ್ದು ಅನಿಯಮಿತವಾಗಿರುತ್ತವೆ; ಪಕ್ವವಾದಾಗ ತಿಳಿ ಕಂದು ಅಥವಾ ಒಣಹುಲ್ಲಿನ ಬಣ್ಣಕ್ಕೆ ತಿರುಗುತ್ತವೆ",
+      "ಶಿಲೀಂಧ್ರದ ಬೀಜಕಗಳಿಂದ ಕಲೆಗಳ ಮೇಲೆ ಕಪ್ಪು ಮಸಿಯಂತಹ ನೋಟ ಕಾಣಿಸುತ್ತದೆ",
+      "ರೋಗವು ಕೆಳಗಿನ ಮತ್ತು ಹಳೆಯ ಎಲೆಗಳಿಂದ ಪ್ರಾರಂಭವಾಗಿ ಮೇಲ್ಭಾಗದ ಎಲೆಗಳಿಗೆ ಹರಡುತ್ತದೆ",
+      "ತೀವ್ರ ಸೋಂಕಿನಲ್ಲಿ ಎಲೆಗಳು ಅಕಾಲಿಕವಾಗಿ ಒಣಗಿ ದ್ಯುತಿಸಂಶ್ಲೇಷಣೆ ತೀವ್ರವಾಗಿ ಕಡಿಮೆಯಾಗುತ್ತದೆ",
+      "ಕಲೆಗಳು ಒಗ್ಗೂಡಿ ಎಲೆಯ ದೊಡ್ಡ ಭಾಗ ಸುಟ್ಟಂತಾಗಬಹುದು",
+      "ತೀವ್ರ ಸೋಂಕಿನಲ್ಲಿ ತೆನೆಯ ಹೊದಿಕೆ ಮತ್ತು ಕಾಳುಗಳೂ ಕೊಳೆಯಬಹುದು"
+    ],
+    "favorable_conditions": [
+      "18–27°C ತಾಪಮಾನ (ಅತ್ಯಂತ ಸೂಕ್ತ 20–25°C)",
+      "80% ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಾಪೇಕ್ಷ ಆರ್ದ್ರತೆ",
+      "ದಿನಕ್ಕೆ 6 ಗಂಟೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ಎಲೆ ತೇವವಾಗಿರುವ ಪರಿಸ್ಥಿತಿ",
+      "ಆಗಾಗ ಮಳೆ ಮತ್ತು ಮೋಡ ಕವಿದ ವಾತಾವರಣ",
+      "ದಟ್ಟ ಸಸ್ಯ ಸಾಂದ್ರತೆ ಮತ್ತು ಕಡಿಮೆ ಗಾಳಿ ಸಂಚಾರ",
+      "ಶೀತ ರಾತ್ರಿ ನಂತರ ಬೆಚ್ಚಗಿನ ಮತ್ತು ಆರ್ದ್ರ ಹಗಲು",
+      "ಹೊಲದಲ್ಲಿ ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳ ಇರುವಿಕೆ"
+    ],
+    "prevention": [
+      "ರೋಗ ನಿರೋಧಕ ಅಥವಾ ಸಹನಶೀಲ ಸಂಕರ ತಳಿಗಳನ್ನು ಬೆಳೆಯಿರಿ (Ht ಜೀನ್ ಇರುವ ತಳಿಗಳು)",
+      "ಸೋಯಾಬೀನ್ ಅಥವಾ ಗೋಧಿಯಂತಹ ಹೋಸ್ಟ್ ಅಲ್ಲದ ಬೆಳೆಗಳೊಂದಿಗೆ ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ",
+      "ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳನ್ನು ಹೂಳಲು ಆಳವಾದ ಉಳುಮೆ ಮಾಡಿ",
+      "ಕೊಯ್ಲಿನ ನಂತರ ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದು ನಾಶಪಡಿಸಿ",
+      "ಸಮತೋಲಿತ ಗೊಬ್ಬರ ನೀಡಿ; ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರ ತಪ್ಪಿಸಿ",
+      "ಗಾಳಿ ಸಂಚಾರ ಸುಧಾರಿಸಲು ಸರಿಯಾದ ಅಂತರದಲ್ಲಿ ನಾಟಿ ಮಾಡಿ",
+      "ರೋಗ ಉಲ್ಬಣ ಅವಧಿ ತಪ್ಪಿಸಲು ಮೊದಲೇ ಬಿತ್ತಿರಿ",
+      "ಬಿತ್ತನೆಗೆ ಮೊದಲು ವ್ಯವಸ್ಥಾಪಕ ಶಿಲೀಂಧ್ರ ನಾಶಕದಿಂದ ಬೀಜ ಸಂಸ್ಕರಣೆ ಮಾಡಿ"
+    ],
+    "chemical_control": [
+      "ಮ್ಯಾಂಕೋಝೆಬ್ 75% WP @ 2.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ರೋಗದ ಮೊದಲ ಲಕ್ಷಣ ಕಂಡ ತಕ್ಷಣ ಸಿಂಪಡಿಸಿ",
+      "ಝಿನೆಬ್ 75% WP @ 2.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು",
+      "ಪ್ರೊಪಿಕೊನಾಝೋಲ್ 25% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಟೆಬ್ಯುಕೊನಾಝೋಲ್ 25.9% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಆಝಾಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ 23% SC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು",
+      "ಕಾರ್ಬೆಂಡಾಝಿಮ್ 50% WP @ 1.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು",
+      "ಕ್ಲೋರೊಥಲೋನಿಲ್ 75% WP @ 2.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು",
+      "ರೋಗದ ಒತ್ತಡ ಹೆಚ್ಚಿದ್ದರೆ ಪ್ರತಿ 10–15 ದಿನಗಳಿಗೊಮ್ಮೆ ಮರು ಸಿಂಪಡಿಸಿ"
+    ]
+  }
+}

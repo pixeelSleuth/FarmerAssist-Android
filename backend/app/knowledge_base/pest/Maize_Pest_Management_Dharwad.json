@@ -1,0 +1,1565 @@
+{
+    "Document Info": {
+        "Module": "AGRICULTURAL DECISION SUPPORT SYSTEM | PHASE 1.2 PEST MODULE",
+        "Title": "MAIZE PEST MANAGEMENT GUIDE",
+        "Region": "Dharwad Region, Karnataka Complete Pest Reference",
+        "Sources": "ICAR-CIMMYT | UAS Dharwad | KVK Dharwad | NCIPM FAO FAW Guidelines",
+        "Overview": [
+            {
+                "Pest": "FAW Fall Armyworm",
+                "Severity": "CRITICAL"
+            },
+            {
+                "Pest": "SB Stern Borer",
+                "Severity": "HIGH"
+            },
+            {
+                "Pest": "SF Shoot Fly",
+                "Severity": "HIGH"
+            },
+            {
+                "Pest": "Other Pests",
+                "Severity": "MEDIUM"
+            }
+        ]
+    },
+    "Table of Contents": [
+        {
+            "Number": "1",
+            "Topic": "Fall Armyworm (FAW) (Spodoptera frugiperda)",
+            "Details": "ID, Life Cycle, Symptoms by Stage, Traps, Sprays, Decision Rules",
+            "Severity": "CRITICAL"
+        },
+        {
+            "Number": "2",
+            "Topic": "Stem Borer (Chilo partellus)",
+            "Details": "Dead Heart, Shot-hole, Ear Damage, Biocontrol, Decision Rules",
+            "Severity": "HIGH"
+        },
+        {
+            "Number": "3",
+            "Topic": "Shoot Fly (Atherigona spp.)",
+            "Details": "Early Stage Damage, Maggot ID, Seed Treatment, Decision Rules",
+            "Severity": "HIGH"
+        },
+        {
+            "Number": "4",
+            "Topic": "Other Major Pests (Aphids, Grubs, Termites...)",
+            "Details": "Aphids, White Grubs, Cutworms, Termites, Thrips- control tables",
+            "Severity": "MEDIUM"
+        },
+        {
+            "Number": "5",
+            "Topic": "Decision Rules Master (All Pests Combined)",
+            "Details": "Complete IF/THEN rule matrix- all pests, all stages",
+            "Severity": "REFERENCE"
+        },
+        {
+            "Number": "6",
+            "Topic": "Resistance Management (Spray Rotation Guide)",
+            "Details": "MoA classes, rotation chart, resistance monitoring",
+            "Severity": "MANDATORY"
+        }
+    ],
+    "Sections": [
+        {
+            "Section Number": "1",
+            "Title": "Fall Armyworm",
+            "Scientific Name": "Spodoptera frugiperda (J.E. Smith, 1797) | Order: Lepidoptera | F",
+            "Severity": "CRITICAL",
+            "Importance Notes": [
+                "Invasive to India since 2018; now present in all Karnataka maize-growing districts.",
+                "A single larva can destroy an entire whorl in 24-48 hours at L4-L6 stage.",
+                "One adult female deposits 1,000-2,000 eggs; moths fly 100 km/night - rapid spread.",
+                "Karnataka losses documented at 25-73% in unmanaged fields (ICAR 2019-2023).",
+                "No natural immunity in existing Indian hybrids chemical & biological management is mandatory."
+            ],
+            "Subsections": [
+                {
+                    "Heading": "1A Identification - Egg, Larva, Pupa, Adult",
+                    "Table": [
+                        {
+                            "Stage": "Egg",
+                            "Size": "0.4 mm dia",
+                            "Colour / Appearance": "Dome-shaped, creamy-white to grey",
+                            "Key ID Feature": "Masses of 100-200 covered with pinkish moth scales",
+                            "Duration": "2-3 days (hot): 5-7 days (cool)"
+                        },
+                        {
+                            "Stage": "L1-L2 Larva",
+                            "Size": "1-3 mm",
+                            "Colour / Appearance": "Pale green; tiny black spots",
+                            "Key ID Feature": "Head capsule shiny black; corona of spines visible",
+                            "Duration": "3-5 days"
+                        },
+                        {
+                            "Stage": "L3 Larva",
+                            "Size": "5-10 mm",
+                            "Colour / Appearance": "Greenish-brown with faint stripes",
+                            "Key ID Feature": "Inverted 'Y' on front of head becomes visible",
+                            "Duration": "2-4 days"
+                        },
+                        {
+                            "Stage": "L4-L6 Larva",
+                            "Size": "15-35 mm",
+                            "Colour / Appearance": "Dark brown/black; pale lateral stripes",
+                            "Key ID Feature": "Inverted 'Y' suture on head; 4 black dots in square on A8 segment",
+                            "Duration": "9-14 days MOST DAMAGE"
+                        },
+                        {
+                            "Stage": "Pupa",
+                            "Size": "14-18 mm",
+                            "Colour / Appearance": "Reddish-brown, smooth",
+                            "Key ID Feature": "In soil 2-8 cm deep; last instar spins loose cocoon",
+                            "Duration": "8-10 days"
+                        },
+                        {
+                            "Stage": "Adult",
+                            "Size": "Wingspan 32-40 mm",
+                            "Colour / Appearance": "Male: brown-grey wings with white patches; Female: dull uniform",
+                            "Key ID Feature": "Male hindwings white; female hindwings pale grey; nocturnal",
+                            "Duration": "10-21 days"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1B Complete Life Cycle - Seasonal Timeline",
+                    "Table": [
+                        {
+                            "Life Stage": "Egg masses",
+                            "Duration": "2-7 days",
+                            "Temperature Dependence": "Faster at 25-30\u00b0C",
+                            "Behaviour / Notes": "Laid on leaf surface, covered with body scales; hatching synchronised"
+                        },
+                        {
+                            "Life Stage": "L1-L3 larvae",
+                            "Duration": "8-12 days",
+                            "Temperature Dependence": "Optimal 25-28\u00b0C",
+                            "Behaviour / Notes": "Feed on leaf surface (window-pane); do not penetrate whorl yet, easily killed"
+                        },
+                        {
+                            "Life Stage": "L4-L6 larvae",
+                            "Duration": "9-14 days",
+                            "Temperature Dependence": "25-32\u00b0C; still active >38\u00b0C",
+                            "Behaviour / Notes": "MOST DESTRUCTIVE stage; enter whorl, cob; chemical entry difficult"
+                        },
+                        {
+                            "Life Stage": "Pupal stage",
+                            "Duration": "8-10 days",
+                            "Temperature Dependence": "Shorter in monsoon heat",
+                            "Behaviour / Notes": "In soil; ploughing exposes pupae to birds; drought slows pupation"
+                        },
+                        {
+                            "Life Stage": "Adult moth",
+                            "Duration": "10-21 days",
+                            "Temperature Dependence": "Night active; mating peaks 8-11 PM",
+                            "Behaviour / Notes": "Long-distance migrant; lays eggs on maize, sorghum, sugarcane, wheat"
+                        },
+                        {
+                            "Life Stage": "Generations/year",
+                            "Duration": "6-8 (Dharwad)",
+                            "Temperature Dependence": "Year-round in Karnataka",
+                            "Behaviour / Notes": "No diapause continuous breeding; Kharif peak = Aug-Sep"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1C Symptoms Mapped to Crop Growth Stage",
+                    "Table": [
+                        {
+                            "Crop Stage": "Seedling (V1-V2)",
+                            "DAS": "0-12",
+                            "Symptom": "Window-pane feeding: small translucent patches; pin-holes on unrolled leaf",
+                            "Damage Level": "LOW-MEDIUM",
+                            "Urgency": "MONITOR"
+                        },
+                        {
+                            "Crop Stage": "Early Whorl (V3-V5)",
+                            "DAS": "12-25",
+                            "Symptom": "Ragged, irregular holes in whorl leaves; frass (sawdust) accumulating; young larvae in whorl",
+                            "Damage Level": "MEDIUM",
+                            "Urgency": "MEDIUM"
+                        },
+                        {
+                            "Crop Stage": "Late Whorl (V6-V8)",
+                            "DAS": "25-40",
+                            "Symptom": "Heavy frass in centre; multiple larvae; large irregular leaf holes; tassels deformed",
+                            "Damage Level": "HIGH",
+                            "Urgency": "HIGH"
+                        },
+                        {
+                            "Crop Stage": "Tasseling (V9-VT)",
+                            "DAS": "40-55",
+                            "Symptom": "Damage at tassel base; silk channel entry begins; frass on leaf axils",
+                            "Damage Level": "HIGH",
+                            "Urgency": "ACT NOW"
+                        },
+                        {
+                            "Crop Stage": "Silking (R1)",
+                            "DAS": "55-70",
+                            "Symptom": "Entry at silk channel; frass visible on husk; silk clipping prevents pollination",
+                            "Damage Level": "CRITICAL",
+                            "Urgency": "ACT NOW"
+                        },
+                        {
+                            "Crop Stage": "Grain Fill (R3-R5)",
+                            "DAS": "75-105",
+                            "Symptom": "Entry holes at side of cob; larvae tunnel through grain; fungal entry follows",
+                            "Damage Level": "CRITICAL",
+                            "Urgency": "ACT NOW"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1D Monitoring & Trap Methods",
+                    "Notes": [
+                        "Pheromone trap monitoring is MANDATORY. Karnataka state advisory (2022) requires installation of FAW traps before Kharif sowing.",
+                        "Replace lures every 4 weeks expired lures give false-low counts."
+                    ],
+                    "Table": [
+                        {
+                            "Trap Type": "Pheromone Trap (Funnel or Delta)",
+                            "Density": "4-5/acre",
+                            "Lure / Bait": "Spodoptera frugiperda specific lure (Helilure-Sf)",
+                            "Placement": "1 m above crop canopy; evenly distributed",
+                            "Replacement": "Every 4-6 weeks or if count drops",
+                            "Action Threshold": ">8 moths/trap/week \u2192 Scout >15/trap/week \u2192 Spray"
+                        },
+                        {
+                            "Trap Type": "Light Trap (UV or White)",
+                            "Density": "1 per 4-5 acres",
+                            "Lure / Bait": "UV fluorescent bulb (15-20 watt)",
+                            "Placement": "At crop canopy height; facing south-east",
+                            "Replacement": "Bulb: every season",
+                            "Action Threshold": ">10 moths/night/trap \u2192 Scouting immediately"
+                        },
+                        {
+                            "Trap Type": "Yellow Sticky Trap",
+                            "Density": "6-8/acre",
+                            "Lure / Bait": "Yellow card with sticky polyisobutylene coating",
+                            "Placement": "At canopy level",
+                            "Replacement": "Every 2-3 weeks or when full",
+                            "Action Threshold": "Adult presence confirmed inspect whorl"
+                        },
+                        {
+                            "Trap Type": "Bait Trap",
+                            "Density": "4/acre",
+                            "Lure / Bait": "Rice bran 500 g + Fermented jaggery 100 g+ Chlorantraniliprole 0.5 ml",
+                            "Placement": "At ground level in basin trap",
+                            "Replacement": "Replace bait weekly",
+                            "Action Threshold": "Larvae presence \u2192 spray"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1E Spray Recommendations - Chemical, Biological, Botanical",
+                    "Chemical Insecticides Table": [
+                        {
+                            "Insecticide": "Emamectin benzoate",
+                            "Formulation": "5 SG",
+                            "MoA Group": "Group 6 (GluCl)",
+                            "Dose / 15L Pump": "4 g",
+                            "Timing": "V3-VT",
+                            "Remarks": "Best systemic + contact: WHO safe; preferred choice"
+                        },
+                        {
+                            "Insecticide": "Spinetoram",
+                            "Formulation": "11.7 SC",
+                            "MoA Group": "Group 5 (GABA)",
+                            "Dose / 15L Pump": "8 ml",
+                            "Timing": "V3-V10",
+                            "Remarks": "Excellent residual; protects bees; rotate with Group 6"
+                        },
+                        {
+                            "Insecticide": "Chlorantraniliprole",
+                            "Formulation": "18.5 SC",
+                            "MoA Group": "Group 28 (RyR)",
+                            "Dose / 15L Pump": "6 ml",
+                            "Timing": "Any stage",
+                            "Remarks": "Coragen; stomach poison; best for ear protection"
+                        },
+                        {
+                            "Insecticide": "Thiamethoxam + Lambda-cyhalothrin",
+                            "Formulation": "Alika 247 ZC",
+                            "MoA Group": "Grp 4A+3",
+                            "Dose / 15L Pump": "0.25 ml/L",
+                            "Timing": "V3-V8",
+                            "Remarks": "Broad spectrum; avoid during pollination (bee toxic)"
+                        },
+                        {
+                            "Insecticide": "Spinetoram + Spirotetramat (mix)",
+                            "Formulation": "5+23",
+                            "MoA Group": "As label",
+                            "Dose / 15L Pump": "V4-V10",
+                            "Timing": "Resistance break tank mix; use only once per season",
+                            "Remarks": ""
+                        },
+                        {
+                            "Insecticide": "Novaluron",
+                            "Formulation": "5.25 EC",
+                            "MoA Group": "Group 15 (IGR)",
+                            "Dose / 15L Pump": "15 ml",
+                            "Timing": "Egg + L1-L2",
+                            "Remarks": "Insect Growth Regulator; suppresses hatching; use at trap spike"
+                        }
+                    ],
+                    "Biological Controls Table": [
+                        {
+                            "Agent": "Nuclear Polyhedrosis Virus",
+                            "Product": "NPV-SF (IIHR)",
+                            "Dose / Acre": "250 LE",
+                            "Target Stage": "L1-L3",
+                            "Application Method": "Foliar + whorl spray: evening application",
+                            "Notes": "Does NOT kill L4+; use at first emergence only"
+                        },
+                        {
+                            "Agent": "Bacillus thuringiensis",
+                            "Product": "Bt var. kurstaki (Delfin/Halt)",
+                            "Dose / Acre": "1-1.5 kg",
+                            "Target Stage": "L1-L3",
+                            "Application Method": "Foliar spray at dusk",
+                            "Notes": "UV-sensitive; re-apply every 5-7 days; ineffective L4+"
+                        },
+                        {
+                            "Agent": "Metarhizium anisopliae",
+                            "Product": "BioMet/Metarmax",
+                            "Dose / Acre": "2 kg",
+                            "Target Stage": "L1-L4; pupae",
+                            "Application Method": "Whorl application; drench near base",
+                            "Notes": "Also suppresses white grubs; slow acting"
+                        },
+                        {
+                            "Agent": "Beauveria bassiana",
+                            "Product": "BioBeauv",
+                            "Dose / Acre": "2 kg",
+                            "Target Stage": "L1-L4",
+                            "Application Method": "Mixed with fine sand; pour in whorl",
+                            "Notes": "Best in humid conditions (Kharif ideal)"
+                        },
+                        {
+                            "Agent": "Trichogramma pretiosum",
+                            "Product": "Bio-card (egg parasitoid)",
+                            "Dose / Acre": "50,000 /acre",
+                            "Target Stage": "Egg stage",
+                            "Application Method": "Release tri-cards at field, 2-3 releases/season",
+                            "Notes": "Most effective for FAW eggs; combine with NPV"
+                        },
+                        {
+                            "Agent": "Chelonus insularis",
+                            "Product": "Field population",
+                            "Dose / Acre": "",
+                            "Target Stage": "Egg-L1",
+                            "Application Method": "Conserve by avoiding broad-spectrum sprays",
+                            "Notes": "Indigenous parasitoid; promote by reducing chemicals"
+                        }
+                    ],
+                    "Botanical / Low-Input Options Table": [
+                        {
+                            "Product": "Neem oil (EC)",
+                            "Dose": "3-5%",
+                            "Application": "Foliar spray",
+                            "Efficacy": "40-55%",
+                            "Notes": "Add 0.5 ml/L sticker; repeat every 5-7 days; best on L1-L3"
+                        },
+                        {
+                            "Product": "Fish meal extract",
+                            "Dose": "5% solution",
+                            "Application": "Whorl application",
+                            "Efficacy": "35-45%",
+                            "Notes": "Attracts natural enemies; sustainable option"
+                        },
+                        {
+                            "Product": "Jaggery + Maize flour bait",
+                            "Dose": "500g+200 g/acre",
+                            "Application": "Ground traps",
+                            "Efficacy": "Suppression",
+                            "Notes": "Add Emamectin 0.5g to bait for lethal bait station"
+                        },
+                        {
+                            "Product": "Aqueous neem seed extract",
+                            "Dose": "4-5%",
+                            "Application": "Foliar spray",
+                            "Efficacy": "50-60%",
+                            "Notes": "Prepare fresh; effective against L1-L3; antifeedant"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "1F Fall Armyworm Decision Rules (IF/THEN)",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Crop age < 30 DAS AND Whorl frass visible in >10% plants",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "FAW SUSPECTED Scout whorl fo nt larvae/pla"
+                        },
+                        {
+                            "Condition (IF)": "Crop age < 30 DAS AND Whorl damage > 10% AND Larvae >1 per plant",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Spray Emamectin Benzoate 4g/15L oply evening"
+                        },
+                        {
+                            "Condition (IF)": "Pheromone trap catch > 8 moths/trap/week",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Mandatory field scouting within 48 h likely immine"
+                        },
+                        {
+                            "Condition (IF)": "Pheromone trap catch >15 moths/trap/week",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Economic Threshold Reached \u2192 Sp tely (any reg"
+                        },
+                        {
+                            "Condition (IF)": "Crop age 30-50 DAS AND FAW larvae > 2 per plant",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Spray Spinetoram 8 ml/15L or Chlora 6 ml/15L"
+                        },
+                        {
+                            "Condition (IF)": "Silking stage (65-75 DAS) AND FAW entry holes on cob > 5%",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Spray Emamectin Benzoate into silk ply at dusk"
+                        },
+                        {
+                            "Condition (IF)": "Grain fill stage (R3-R5) AND >10% cobs with frass/entry holes",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Harvest early if damage >25%; spray iliprole as la"
+                        },
+                        {
+                            "Condition (IF)": "Previous spray with same MoA molecule AND 2 consecutive applications made",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "ROTATE to different MoA class re"
+                        },
+                        {
+                            "Condition (IF)": "Biological spray applied (NPV/Bt)",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "No chemical spray for 5 days pro al activity"
+                        },
+                        {
+                            "Condition (IF)": "Natural enemies (Chelonus / Cotesia) visible AND damage < 20%",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "Withhold chemical spray; monitor o e beneficials"
+                        },
+                        {
+                            "Condition (IF)": "No pheromone traps installed in field",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Install FAW traps immediately @ 4/a oring is man"
+                        },
+                        {
+                            "Condition (IF)": "FAW damage at V1-V3 (window pane only) AND larvae not in whorl yet",
+                            "Severity": "LOW",
+                            "Action (THEN)": "No spray needed - apply Neem oil vae are contr"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section Number": "2",
+            "Title": "Stem Borer (Spotted Stalk Borer)",
+            "Scientific Name": "Chilo partellus (Swinhoe, 1884) | Order: Lepidoptera | Family: Cra",
+            "Severity": "HIGH",
+            "Importance Notes": [
+                "Chilo partellus is the primary stem borer of maize and sorghum in peninsular India.",
+                "Pre-dates FAW; co-exists with FAW after 2018 - dual infestation possible.",
+                "Causes 10-30% yield loss in unmanaged Kharif crops in Dharwad district.",
+                "Distinguished from FAW by regular shot-hole pattern and absence of frass in whorl."
+            ],
+            "Subsections": [
+                {
+                    "Heading": "2A Identification",
+                    "Table": [
+                        {
+                            "Stage": "Egg mass",
+                            "Size": "Flat, 2-3 mm",
+                            "Colour": "Pale yellow, overlapping (fish-scale)",
+                            "Key ID Feature": "Laid in masses of 10-80 eggs on underside of leaf near midrib",
+                            "Duration": "4-7 days"
+                        },
+                        {
+                            "Stage": "Larva (early)",
+                            "Size": "12-15 mm",
+                            "Colour": "Yellowish-white, smooth",
+                            "Key ID Feature": "Brown head; 4 brownish spots per segment (faint in L1)",
+                            "Duration": "7-10 days"
+                        },
+                        {
+                            "Stage": "Larva (late)",
+                            "Size": "20-28 mm",
+                            "Colour": "Cream/straw with dark head",
+                            "Key ID Feature": "4 distinct brownish spots on each abdominal segment; narrow body",
+                            "Duration": "12-18 days"
+                        },
+                        {
+                            "Stage": "Pupa",
+                            "Size": "3-8 mm",
+                            "Colour": "Light brown",
+                            "Key ID Feature": "Inside stem tunnel; cremaster with 8 hooked setae",
+                            "Duration": "7-10 days"
+                        },
+                        {
+                            "Stage": "Adult moth",
+                            "Size": "Wingspan 20-26 mm",
+                            "Colour": "Straw-yellow forewings with black specks",
+                            "Key ID Feature": "Forewings with row of black dots; hindwings white; females larger",
+                            "Duration": "5-10 days"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2B Complete Life Cycle",
+                    "Table": [
+                        {
+                            "Phase": "Egg incubation",
+                            "Duration": "4-7 days",
+                            "Host/Location": "Underside of leaf near midrib",
+                            "Key Behaviour": "Female lays 100-300 eggs/lifetime; prefers V3-V8 whorl leaves"
+                        },
+                        {
+                            "Phase": "Early larvae (L1-L3)",
+                            "Duration": "7-10 days",
+                            "Host/Location": "Leaf surface \u2192 entering whorl",
+                            "Key Behaviour": "Initially feed on surface; L2-L3 migrate to whorl and enter plant"
+                        },
+                        {
+                            "Phase": "Late larvae (L4-L6)",
+                            "Duration": "12-18 days",
+                            "Host/Location": "Inside stem tunnel",
+                            "Key Behaviour": "Bore through stem; tunnel downward; cause Dead Heart / lodging"
+                        },
+                        {
+                            "Phase": "Pupal stage",
+                            "Duration": "7-10 days",
+                            "Host/Location": "Inside stem",
+                            "Key Behaviour": "Pupate in feeding chamber; exit hole chewed before pupation"
+                        },
+                        {
+                            "Phase": "Adult",
+                            "Duration": "5-10 days",
+                            "Host/Location": "Crop canopy/field borders",
+                            "Key Behaviour": "Nocturnal; attracted to lights; female needs protein meal before oviposition"
+                        },
+                        {
+                            "Phase": "Generations /year",
+                            "Duration": "3-4",
+                            "Host/Location": "Kharif + Rabi; partial Zaid",
+                            "Key Behaviour": "Overlapping generations; peak damage in whorl stage Aug-Oct"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2C Symptoms Dead Heart, Shot Hole, Ear Damage",
+                    "Details": [
+                        {
+                            "Subtopic": "A. Dead Heart Syndrome (0-30 DAS)",
+                            "Description": "Dead Heart is the hallmark early-stage symptom of stem borer (and also shoot fly). It occurs when larvae bore into the central shoot, cutting the growing point.",
+                            "Table": [
+                                {
+                                    "Feature": "Visual",
+                                    "Stem Borer Dead Heart": "Central shoot wilts, yellows, and dries",
+                                    "Shoot Fly Dead Heart": "Central shoot wilts and has rotten base",
+                                    "How to Differentiate": "Both look similar. check maggot/larva"
+                                },
+                                {
+                                    "Feature": "Pull test",
+                                    "Stem Borer Dead Heart": "Pulls out with resistance (larva bore from above)",
+                                    "Shoot Fly Dead Heart": "Pulls out very easily (maggot at base, rotted)",
+                                    "How to Differentiate": "Easy pull = Shoot fly"
+                                },
+                                {
+                                    "Feature": "Smell",
+                                    "Stem Borer Dead Heart": "No odour",
+                                    "Shoot Fly Dead Heart": "Foul rotting smell",
+                                    "How to Differentiate": "Smell test reliable"
+                                },
+                                {
+                                    "Feature": "Organism",
+                                    "Stem Borer Dead Heart": "Pale larva with spots found in tunnel above",
+                                    "Shoot Fly Dead Heart": "White maggot found at base of shoot",
+                                    "How to Differentiate": "Find organism to confirm"
+                                },
+                                {
+                                    "Feature": "Frass",
+                                    "Stem Borer Dead Heart": "Frass granules inside tunnel and at entry point",
+                                    "Shoot Fly Dead Heart": "No frass; watery rot",
+                                    "How to Differentiate": "Frass = Stem borer"
+                                },
+                                {
+                                    "Feature": "Entry point",
+                                    "Stem Borer Dead Heart": "Entry hole 2-4 cm above soil or in whorl",
+                                    "Shoot Fly Dead Heart": "Entry at soil level or below",
+                                    "How to Differentiate": "Entry height = diagnostic"
+                                }
+                            ]
+                        },
+                        {
+                            "Subtopic": "B. Shot-Hole Pattern (30-55 DAS)",
+                            "Description": "As the plant grows and leaves unfurl, borer feeding on the rolled whorl creates a characteristic linear row of holes across the leaf blade - the 'Shot-hole' or 'Window-pane' pattern.",
+                            "Table": [
+                                {
+                                    "Symptom Feature": "Pattern",
+                                    "Description": "Regular, aligned row of holes across leaf when leaf unfolds; holes are round/oval"
+                                },
+                                {
+                                    "Symptom Feature": "Number",
+                                    "Description": "3-12 holes in a straight line; characteristic of Chilo (FAW holes are irregular, torn edges)"
+                                },
+                                {
+                                    "Symptom Feature": "Leaf surface",
+                                    "Description": "No frass; no sawdust; leaf may be slightly bleached around holes"
+                                },
+                                {
+                                    "Symptom Feature": "Comparison",
+                                    "Description": "FAW: Ragged, jagged holes + frass in whori | Stem Borer: Clean, regular holes, no frass"
+                                },
+                                {
+                                    "Symptom Feature": "Stage",
+                                    "Description": "V5-V10; most visible on leaves 3-5 from the top"
+                                }
+                            ]
+                        },
+                        {
+                            "Subtopic": "C. Stem Tunnelling & Ear Damage (50-100 DAS)",
+                            "Table": [
+                                {
+                                    "Stage": "V10-VT (50-65 DAS)",
+                                    "Symptom": "Frass at leaf axil; entry hole on stem; 'Deadheart' of tassel",
+                                    "Detection Method": "Cut stem longitudinally",
+                                    "Yield Impact": "Tassel damage; pollen loss"
+                                },
+                                {
+                                    "Stage": "Silking (R1)",
+                                    "Symptom": "Silk channel damage; entry at base of ear",
+                                    "Detection Method": "Check ear base for entry hole + frass",
+                                    "Yield Impact": "Incomplete pollination"
+                                },
+                                {
+                                    "Stage": "Grain fill (R3-R5)",
+                                    "Symptom": "Stalk breakage / lodging; cob not fully filled; frass on stem",
+                                    "Detection Method": "Push stalk: if it bends = tunnelled",
+                                    "Yield Impact": "10-40% yield loss"
+                                },
+                                {
+                                    "Stage": "Harvest",
+                                    "Symptom": "Entry holes on stalk; hollow stems; grain chaff",
+                                    "Detection Method": "Cut stalk at 15 cm; check for tunnel",
+                                    "Yield Impact": "Grade A grain rejection"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2D Control Measures Cultural, Chemical, Biological",
+                    "Table": [
+                        {
+                            "Method": "Cultural: Crop rotation",
+                            "Product / Activity": "Avoid continuous maize-sorghum",
+                            "Dose/ Acre": "",
+                            "Timing": "Every season",
+                            "Notes": "Breaks pest cycle; include legume"
+                        },
+                        {
+                            "Method": "Cultural: Residue removal",
+                            "Product / Activity": "Remove and destroy stubble",
+                            "Dose/ Acre": "",
+                            "Timing": "Post-harvest",
+                            "Notes": "Pupae overwinter in stubble"
+                        },
+                        {
+                            "Method": "Cultural: Early sowing",
+                            "Product / Activity": "Sow June 10-25 (Kharif)",
+                            "Dose/ Acre": "",
+                            "Timing": "At sowing",
+                            "Notes": "Avoids peak moth emergence"
+                        },
+                        {
+                            "Method": "Cultural: Irrigation",
+                            "Product / Activity": "Avoid water stress at whorl",
+                            "Dose/ Acre": "",
+                            "Timing": "V3-V10",
+                            "Notes": "Stressed plants more susceptible"
+                        },
+                        {
+                            "Method": "Biological: Trichogramma",
+                            "Product / Activity": "Trichogramma chilonis (egg parasitoid)",
+                            "Dose/ Acre": "1 lakh",
+                            "Timing": "3 releases: 7,15,25 DAS",
+                            "Notes": "Release in evening; check egg masses"
+                        },
+                        {
+                            "Method": "Biological: Cotesia",
+                            "Product / Activity": "Cotesia flavipes (larval parasitoid)",
+                            "Dose/ Acre": "Field pop.",
+                            "Timing": "V4-V10",
+                            "Notes": "Conserve by reducing chemicals"
+                        },
+                        {
+                            "Method": "Chemical: Whorl granules",
+                            "Product / Activity": "Carbofuran 3G",
+                            "Dose/ Acre": "5 kg",
+                            "Timing": "V3-V8",
+                            "Notes": "Drop in whorl; do NOT spray water after"
+                        },
+                        {
+                            "Method": "Chemical: Whorl granules",
+                            "Product / Activity": "Chlorpyrifos 10 G (alt.)",
+                            "Dose/ Acre": "8 kg",
+                            "Timing": "V3-V8",
+                            "Notes": "Broad-spectrum; avoids direct spray"
+                        },
+                        {
+                            "Method": "Chemical: Foliar spray",
+                            "Product / Activity": "Chlorantraniliprole 18.5 SC",
+                            "Dose/ Acre": "6 ml/15L",
+                            "Timing": "V4-R1",
+                            "Notes": "Group 28; excellent for late stage"
+                        },
+                        {
+                            "Method": "Chemical: Foliar spray",
+                            "Product / Activity": "Lambda-cyhalothrin 5 EC",
+                            "Dose/ Acre": "2 ml/L",
+                            "Timing": "V3-V10",
+                            "Notes": "Contact; less systemic; faster knockdown"
+                        },
+                        {
+                            "Method": "Chemical: Foliar spray",
+                            "Product / Activity": "Flubendiamide 480 SC",
+                            "Dose/ Acre": "3 ml/15L",
+                            "Timing": "V5-R1",
+                            "Notes": "Group 28; diamide class; rotate with Coragen"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "2E Stem Borer Decision Rules (IF/THEN)",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Dead Heart symptom > 5% AND Crop age < 30 DAS",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Diagnose (see shoot fly vs borer tab confirmed ap"
+                        },
+                        {
+                            "Condition (IF)": "Dead Heart > 10% AND Crop age < 30 DAS AND Pull test shows resistance (borer)",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Apply Chlorpyrifos 10G @ 8 kg/acre mediately"
+                        },
+                        {
+                            "Condition (IF)": "Shot-hole pattern on leaves AND Crop age 30-55 DAS AND No frass in whorl",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Stem Borer confirmed apply Carb Chlorantran"
+                        },
+                        {
+                            "Condition (IF)": "Egg masses found on leaves AND Crop age 7-25 DAS",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "Release Trichogramma chilonis @ ithin 24 hrs"
+                        },
+                        {
+                            "Condition (IF)": "Trichogramma released within past 5 days AND Egg parasitism > 40%",
+                            "Severity": "LOW",
+                            "Action (THEN)": "Withhold chemical spray; parasitism adequate"
+                        },
+                        {
+                            "Condition (IF)": "Stalk lodging > 10% AND Crop at R4-R5 stage",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Assess tunnel extent; harvest early ed ; spray"
+                        },
+                        {
+                            "Condition (IF)": "Previous crop: sorghum or maize AND No residue removal done",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "High borer pressure expected; insta apply Carbo"
+                        },
+                        {
+                            "Condition (IF)": "FAW also present in same field AND Both pests confirmed",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Use Emamectin Benzoate (kills both ofuran gran"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section Number": "3",
+            "Title": "Shoot Fly",
+            "Scientific Name": "Atherigona soccata / A. naqvii (Rondani) | Order: Diptera | Family.",
+            "Severity": "HIGH",
+            "Importance Notes": [
+                "CRITICAL WINDOW 0 TO 25 DAS ONLY",
+                "Shoot fly is exclusively a seedling pest - damage window is strictly 0-25 DAS.",
+                "After the 5-leaf stage (>25 DAS), plants become tolerant and shoot fly is no longer a threat.",
+                "In Kharif Dharwad, shoot fly incidence peaks during July-August on early-sown crops.",
+                "Yield loss of 20-35% possible in high-pressure fields with no seed treatment."
+            ],
+            "Subsections": [
+                {
+                    "Heading": "3A Identification Adult Fly, Maggot, Pupa",
+                    "Table": [
+                        {
+                            "Stage": "Adult fly",
+                            "Size": "3-4 mm",
+                            "Appearance": "Grey; resembles small housefly; two dark spots on thorax",
+                            "ID Feature": "Yellowish face; arista on antenna; female abdomen pointed",
+                            "Duration": "15-20 days"
+                        },
+                        {
+                            "Stage": "Egg",
+                            "Size": "0.8 mm",
+                            "Appearance": "White, elongated, ribbed",
+                            "ID Feature": "Laid singly on seedling axil or first leaf near base",
+                            "Duration": "1-2 days"
+                        },
+                        {
+                            "Stage": "Maggot (L1)",
+                            "Size": "1-3 mm",
+                            "Appearance": "Translucent white, legless",
+                            "ID Feature": "Cylindrical; pointed front end; bores into central shoot immediately",
+                            "Duration": "3-5 days"
+                        },
+                        {
+                            "Stage": "Maggot (L2-L3)",
+                            "Size": "5-8 mm",
+                            "Appearance": "Pale white/cream, smooth",
+                            "ID Feature": "Found at shoot base, feeding on growing point; no legs",
+                            "Duration": "4-7 days"
+                        },
+                        {
+                            "Stage": "Pupa",
+                            "Size": "4-6 mm",
+                            "Appearance": "Dark brown barrel-shaped puparium",
+                            "ID Feature": "In soil at plant base or in lower leaf sheath",
+                            "Duration": "8-10 days"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3B Life Cycle & Seasonal Pattern",
+                    "Table": [
+                        {
+                            "Phase": "Egg laying",
+                            "Duration": "1-2 days",
+                            "Behaviour": "Female lays 30-60 eggs singly near plant base or axil; prefers V1-V2 plants"
+                        },
+                        {
+                            "Phase": "L1 maggot",
+                            "Duration": "3-5 days",
+                            "Behaviour": "Immediately bores through leaf sheath; enters central shoot; kills growing point"
+                        },
+                        {
+                            "Phase": "L2-L3 maggot",
+                            "Duration": "4-7 days",
+                            "Behaviour": "Feeds inside shoot base; causes irreversible Dead Heart within 4-5 days"
+                        },
+                        {
+                            "Phase": "Pupation",
+                            "Duration": "8-10 days",
+                            "Behaviour": "Pupariates in soil just below plant base; multiple generations overlap in Kharif"
+                        },
+                        {
+                            "Phase": "Adult emergence",
+                            "Duration": "15-20 days",
+                            "Behaviour": "Adults emerge in evening; feed on plant exudates; mating occurs same night"
+                        },
+                        {
+                            "Phase": "Generations in Kharif",
+                            "Duration": "4-5",
+                            "Behaviour": "Continuous overlapping; population peak July 15-Aug 15 in Dharwad"
+                        },
+                        {
+                            "Phase": "Favourable conditions",
+                            "Duration": "Temp 25-35\u00b0C humid; early sown crops",
+                            "Behaviour": "Overcast skies increase fly activity; delay sowing to after July 15 reduces risk"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3C Early Stage Damage Symptoms Detailed",
+                    "Details": [
+                        {
+                            "Stage": "Stage 1 - Egg Laying Damage (0-5 DAS)",
+                            "Points": [
+                                "Tiny egg or oviposition scars at leaf axil or near plant base",
+                                "No visible plant damage yet - only detectable on very close inspection",
+                                "Action: Use yellow sticky traps to detect adult fly presence"
+                            ]
+                        },
+                        {
+                            "Stage": "Stage 2- Maggot Boring Damage (4-12 DAS)",
+                            "Points": [
+                                "First sign: central leaf (not outermost) looks slightly pale / chlorotic",
+                                "Entry hole at leaf sheath near base, sometimes below soil surface",
+                                "Maggot found by carefully splitting base of central shoot with thumbnail",
+                                "Plant does NOT pull out yet - still attached, but growing point is dead"
+                            ]
+                        },
+                        {
+                            "Stage": "Stage 3 Dead Heart Formation (7-18 DAS)",
+                            "Table": [
+                                {
+                                    "Feature": "Central shoot",
+                                    "Description": "Wilts, turns yellow, then brown/straw colour from tip downward"
+                                },
+                                {
+                                    "Feature": "Pull test",
+                                    "Description": "Pulls out easily with a single tug - characteristic of shoot fly"
+                                },
+                                {
+                                    "Feature": "Smell",
+                                    "Description": "Foul rotting smell at base distinguishes from stem borer"
+                                },
+                                {
+                                    "Feature": "Lateral shoots",
+                                    "Description": "Tillers may develop from nodes if 1-3 leaf stage; partial compensation"
+                                },
+                                {
+                                    "Feature": "Population count",
+                                    "Description": "Count dead hearts in 5 plots of 10 m row; calculate % dead heart"
+                                },
+                                {
+                                    "Feature": "Maggot confirmation",
+                                    "Description": "White maggot or dark pupa found at shoot base inside dead material"
+                                }
+                            ]
+                        },
+                        {
+                            "Stage": "Stage 4 - Recovery or Loss Assessment (15-25 DAS)",
+                            "Points": [
+                                "Plants with dead heart at <10 DAS: high loss, no tiller compensation",
+                                "Plants with dead heart at 15-20 DAS: some tillers develop; partial compensation",
+                                "After 25 DAS: plants become tolerant; new dead hearts from other causes",
+                                "Gap-fill replanting feasible up to 15 DAS if dead heart >15%"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3D Monitoring Methods",
+                    "Table": [
+                        {
+                            "Method": "Yellow sticky trap",
+                            "Material": "Yellow card, polyisobutylene",
+                            "Placement": "At plant height, 1 trap/0.5 acre",
+                            "Frequency": "Check twice weekly",
+                            "Action Trigger": ">10 flies/trap/day"
+                        },
+                        {
+                            "Method": "Dead heart count",
+                            "Material": "Manual survey 5 x 10m plots",
+                            "Placement": "In crop rows",
+                            "Frequency": "At 10, 15, 20 DAS",
+                            "Action Trigger": ">5% dead hearts \u2192 spray"
+                        },
+                        {
+                            "Method": "Egg scouting",
+                            "Material": "Visual inspection V1-V3",
+                            "Placement": "Base of central leaves",
+                            "Frequency": "At 5-8 DAS",
+                            "Action Trigger": "Any eggs found \u2192 seed treatment next season"
+                        },
+                        {
+                            "Method": "Light trap",
+                            "Material": "White light/UV 1 per 5 acres",
+                            "Placement": "7-10 PM operation",
+                            "Frequency": "Start at sowing",
+                            "Action Trigger": ">5 adults/night \u2192 high risk"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3E Control Measures - Seed Treatment, Cultural, Chemical",
+                    "Table": [
+                        {
+                            "Method": "Seed Treatment (BEST OPTION)",
+                            "Product": "Imidacloprid 70 WS",
+                            "Dose": "5 ml/kg seed",
+                            "Timing": "At sowing",
+                            "Efficacy": "80-90%",
+                            "Notes": "Systemic; protects up to 20-25 DAS; most cost-effective control"
+                        },
+                        {
+                            "Method": "Seed Treatment",
+                            "Product": "Thiamethoxam 25 WS",
+                            "Dose": "4 g/kg seed",
+                            "Timing": "At sowing",
+                            "Efficacy": "75-85%",
+                            "Notes": "Alternative to Imidacloprid; good systemic activity"
+                        },
+                        {
+                            "Method": "Seed Treatment",
+                            "Product": "Clothianidin 50 WDG",
+                            "Dose": "2 g/kg seed",
+                            "Timing": "At sowing",
+                            "Efficacy": "80-88%",
+                            "Notes": "Neonicotinoid; excellent early systemic protection"
+                        },
+                        {
+                            "Method": "Foliar spray",
+                            "Product": "Chlorpyrifos 20 EC",
+                            "Dose": "2.5 ml/L",
+                            "Timing": "7-15 DAS if >5% dead heart",
+                            "Efficacy": "50-65%",
+                            "Notes": "Only effective if maggot not yet inside plant"
+                        },
+                        {
+                            "Method": "Foliar spray",
+                            "Product": "Dimethoate 30 EC",
+                            "Dose": "1.5 ml/L",
+                            "Timing": "7-12 DAS",
+                            "Efficacy": "45-55%",
+                            "Notes": "Systemic; penetrates leaf tissue; use early"
+                        },
+                        {
+                            "Method": "Cultural",
+                            "Product": "Early sowing (<June 25)",
+                            "Dose": "",
+                            "Timing": "Sowing time",
+                            "Efficacy": "30-40% risk reduction",
+                            "Notes": "Avoids peak fly emergence in July-Aug"
+                        },
+                        {
+                            "Method": "Cultural",
+                            "Product": "Destroy crop residues",
+                            "Dose": "",
+                            "Timing": "Post-harvest",
+                            "Efficacy": "Breaks pupae overwinter",
+                            "Notes": "Remove stubble; deep plough after harvest"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "3F Shoot Fly Decision Rules (IF/THEN)",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Dead Heart > 5% AND Crop age 7-15 DAS AND Pull test: easy pull + smell",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Shoot Fly CONFIRMED \u2192 spray Chl BC @ 2.5 ml."
+                        },
+                        {
+                            "Condition (IF)": "Dead Heart > 10% AND Crop age 10-15 DAS",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "GAP FILLING + spray Dimethoate 1. for daily for"
+                        },
+                        {
+                            "Condition (IF)": "Dead Heart < 5% AND Crop age < 25 DAS",
+                            "Severity": "LOW",
+                            "Action (THEN)": "Monitor only; no spray needed; cont g dead hear"
+                        },
+                        {
+                            "Condition (IF)": "Crop age > 25 DAS AND New dead hearts appearing",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "NOT shoot fly after 25 DAS invest m borer; sha"
+                        },
+                        {
+                            "Condition (IF)": "Previous kharif had shoot fly >10% AND No seed treatment planned",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "Seed treatment with Imidacloprid 70 TORY before"
+                        },
+                        {
+                            "Condition (IF)": "Yellow sticky trap > 10 flies/trap/day AND Crop at V1-V2",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "High adult fly pressure - inspect pl ily; seed trea"
+                        },
+                        {
+                            "Condition (IF)": "Sowing delayed to after July 20 AND No seed treatment applied",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "High shoot fly risk - apply Chlorpy pliar @ 10 DA"
+                        },
+                        {
+                            "Condition (IF)": "Crop at V5 (5-leaf stage)",
+                            "Severity": "LOW",
+                            "Action (THEN)": "Shoot fly no longer a threat - focus ifts to FAW"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section Number": "4",
+            "Title": "Other Major Pests of Maize Dharwad",
+            "Subsections": [
+                {
+                    "Pest": "Corn Leaf Aphid",
+                    "Scientific Name": "Rhopalosiphum maidis (Fitch) | Order: Hemiptera | Family: Aphidi",
+                    "Severity": "MEDIUM",
+                    "Table": [
+                        {
+                            "Aspect": "Appearance",
+                            "Detail": "Olive-green to dark blue-green, 2 mm; winged & wingless forms; cornicles black"
+                        },
+                        {
+                            "Aspect": "Host stages",
+                            "Detail": "Colonies on underside of leaves V4 onwards; severe on tassel and flag leaf"
+                        },
+                        {
+                            "Aspect": "Damage",
+                            "Detail": "Sap sucking yellowing, distorted growth; honeydew\u2192 sooty mold (reduces photosynthesis)"
+                        },
+                        {
+                            "Aspect": "Vector role",
+                            "Detail": "Primary vector of Maize Dwarf Mosaic Virus (MDMV) - indirect damage more serious than direct"
+                        },
+                        {
+                            "Aspect": "Natural enemies",
+                            "Detail": "Coccinellid beetles, lacewings, syrphids conserve; avoid broad-spectrum insecticides"
+                        },
+                        {
+                            "Aspect": "ETL",
+                            "Detail": "200-300 aphids/plant OR 25% plants colonised spray above this"
+                        },
+                        {
+                            "Aspect": "Chemical",
+                            "Detail": "Imidacloprid 17.8 SL @ 1 ml/L OR Thiamethoxam 25 WG @ 0.2 g/L"
+                        },
+                        {
+                            "Aspect": "Biological",
+                            "Detail": "Verticillium lecanii 2% WP @ 2 kg/acre; releases of Chrysoperla carnea"
+                        }
+                    ],
+                    "Decision Rules": [
+                        {
+                            "Condition (IF)": "Aphid colony visible on tassel OR flag leaf AND Honeydew + sooty mold present on > 20% plants",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "Spray Thiamethoxam 25 WG @ 0.2 g ring pollinat"
+                        }
+                    ]
+                },
+                {
+                    "Pest": "White Grubs - Holotrichia spp. (Scarabaeid Beetles)",
+                    "Table": [
+                        {
+                            "Aspect": "Life stage",
+                            "Detail": "Grub (larva) in soil: C-shaped, creamy-white, 15-30 mm; 3 pairs of true legs; brown head"
+                        },
+                        {
+                            "Aspect": "Damage",
+                            "Detail": "Feeds on roots and underground stem; plants wilt in patches; pull out easily; 'rat-tail' rootlets"
+                        },
+                        {
+                            "Aspect": "Season",
+                            "Detail": "July-September (Kharif); peak damage V3-V8 when grubs are in 2nd instar"
+                        },
+                        {
+                            "Aspect": "Detection",
+                            "Detail": "Dig 30 cm x 30 cm x 30 cm pits; count grubs; >1 grub/pit = economic damage"
+                        },
+                        {
+                            "Aspect": "Risk factor",
+                            "Detail": "Fields near forested areas; sandy loam soils, previous fallow or pasture"
+                        },
+                        {
+                            "Aspect": "Chemical",
+                            "Detail": "Phorate 10G @ 10 kg/acre (furrow); Chlorpyrifos 20 EC soil drench 2.5 ml/L"
+                        },
+                        {
+                            "Aspect": "Biological",
+                            "Detail": "Metarhizium anisopliae @ 2 kg/acre soil application; Beauveria bassiana soil drench"
+                        },
+                        {
+                            "Aspect": "Cultural",
+                            "Detail": "Deep ploughing exposes grubs to sun/birds; crop rotation with non-host legumes"
+                        }
+                    ],
+                    "Decision Rules": [
+                        {
+                            "Condition (IF)": "White grubs > 1 per pit (30x30x30 cm soil sample) AND Crop V3-V8",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Apply Phorate 10G @ 10 kg/acre in oil drench C."
+                        }
+                    ]
+                },
+                {
+                    "Pest": "Cutworm",
+                    "Scientific Name": "Agrotis spp. (Surface-cutting Caterpillar)",
+                    "Table": [
+                        {
+                            "Aspect": "Appearance",
+                            "Detail": "Greasy, smooth caterpillar 35-45 mm; grey-brown; curls into C when disturbed"
+                        },
+                        {
+                            "Aspect": "Damage",
+                            "Detail": "Cuts plant at or just below soil surface at night, plants found toppled in morning"
+                        },
+                        {
+                            "Aspect": "DAS window",
+                            "Detail": "Strictly seedling stage 0-20 DAS; older plants withstand attack"
+                        },
+                        {
+                            "Aspect": "Detection",
+                            "Detail": "Toppled plants with clean-cut stem; larva found in soil 3-5 cm deep near plant"
+                        },
+                        {
+                            "Aspect": "Risk fields",
+                            "Detail": "Fields near sugarcane / paddy; weedy borders; after grass fallows"
+                        },
+                        {
+                            "Aspect": "Chemical",
+                            "Detail": "Chlorpyrifos 20 EC @ 2.5 ml/L directed soil spray (ring application); or granules"
+                        },
+                        {
+                            "Aspect": "Bait",
+                            "Detail": "Rice bran 5 kg + Chlorpyrifos 50 ml /acre spread as broadcast bait at dusk"
+                        },
+                        {
+                            "Aspect": "Light trap",
+                            "Detail": "Highly attracted to light; run light traps 7-10 PM; monitor moth counts"
+                        }
+                    ],
+                    "Decision Rules": [
+                        {
+                            "Condition (IF)": "Plants cut at soil level in seedling stage AND Larva found in soil within 3-5 cm",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Chlorpyrifos ring spray + rice bran b repeat every"
+                        }
+                    ]
+                },
+                {
+                    "Pest": "Termites",
+                    "Scientific Name": "Odontotermes spp. / Microtermes spp.",
+                    "Table": [
+                        {
+                            "Aspect": "Damage",
+                            "Detail": "Underground stem and root feeding; hollow stems; white muddy tunnels on stem and soil"
+                        },
+                        {
+                            "Aspect": "Symptoms",
+                            "Detail": "Plants wilt suddenly; pull out easily; soil tunnels visible on stem base; dry weather amplifies"
+                        },
+                        {
+                            "Aspect": "Risk period",
+                            "Detail": "V1-V8; dry spells during Kharif; Rabi crop more affected than Kharif"
+                        },
+                        {
+                            "Aspect": "Risk fields",
+                            "Detail": "Sandy soils; fields with undecomposed organic matter; after tree felling; dry season crops"
+                        },
+                        {
+                            "Aspect": "Chemical",
+                            "Detail": "Chlorpyrifos 20 EC @ 2.5 ml/L soil drench at plant base; or Bifenthrin"
+                        },
+                        {
+                            "Aspect": "Seed treatment",
+                            "Detail": "Imidacloprid 70 WS @ 5 ml/kg seed (suppresses early termite attack)"
+                        },
+                        {
+                            "Aspect": "Cultural",
+                            "Detail": "Remove organic debris; avoid fresh FYM in soil; apply only welldecomposed-compost"
+                        }
+                    ],
+                    "Decision Rules": [
+                        {
+                            "Condition (IF)": "Wilting patches in field AND Mud tunnels visible on stem base AND Plants pull out with hollow roots",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Termite confirmed drench Chlorp 2.5 ml/L per"
+                        }
+                    ]
+                },
+                {
+                    "Pest": "Thrips",
+                    "Scientific Name": "Frankliniella williamsi / Thrips palmi",
+                    "Table": [
+                        {
+                            "Aspect": "Appearance",
+                            "Detail": "Tiny (1-1.5 mm), slender; pale yellow to brown; rasping-sucking mouthparts"
+                        },
+                        {
+                            "Aspect": "Damage",
+                            "Detail": "Silvery-white streaks / stippling on upper leaf surface; leaf tips curl under; V1-V6 mainly"
+                        },
+                        {
+                            "Aspect": "Symptoms",
+                            "Detail": "Silvery discolouration; onion skin appearancedistorted ; young leaves; stunted growth"
+                        },
+                        {
+                            "Aspect": "Favourable",
+                            "Detail": "Hot, dry conditions; dusty fields; monsoon break in August"
+                        },
+                        {
+                            "Aspect": "ETL",
+                            "Detail": "10 thrips/leaf OR 20% plants showing silvery symptoms"
+                        },
+                        {
+                            "Aspect": "Chemical",
+                            "Detail": "Spinosad 45 SC @ 3 ml/15L; Acephate 75 SP @ 1 g/L; Dimethoate 30 EC @ 1.5 ml/L"
+                        },
+                        {
+                            "Aspect": "Biological",
+                            "Detail": "Predatory mites (Neoseiulus cucumeris) where available"
+                        },
+                        {
+                            "Aspect": "Resistance",
+                            "Detail": "Pyrethroid resistance common in thrips in Karnataka - avoid Cypermethrin"
+                        }
+                    ],
+                    "Decision Rules": [
+                        {
+                            "Condition (IF)": "Silvery stippling on leaves AND > 10 thrips/leaf confirmed on V1-V6 plant",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "Spray Spinosad 45 SC @ 3 ml/15L; r days if need"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Section Number": "5",
+            "Title": "Master Decision Rules All Pests Combined",
+            "Description": "This section consolidates all IF/THEN decision rules across all pests into a single reference matrix. Rules are sorted by crop growth stage, then by priority level. CRITICAL rules require same-day action.",
+            "Table": [
+                {
+                    "Crop DAS": "0-10",
+                    "Trigger Condition": "Dead Heart > 5%; easy pull; foul smell",
+                    "Suspected Pest": "Shoot Fly",
+                    "Action Required": "Spray Chlorpyrifos 2.5 ml/L; gap fill; seed treatment next season"
+                },
+                {
+                    "Crop DAS": "10-15",
+                    "Trigger Condition": "Dead Heart > 5%; resistance to pull; frass in tunnel",
+                    "Suspected Pest": "Stem Borer",
+                    "Action Required": "Carbofuran 3G in whorl; confirm organism"
+                },
+                {
+                    "Crop DAS": "0-25",
+                    "Trigger Condition": "Yellow sticky trap >10 flies/day; V1-V2 crop",
+                    "Suspected Pest": "Shoot Fly",
+                    "Action Required": "Daily inspection; spray Dimethoate 1.5 ml/L"
+                },
+                {
+                    "Crop DAS": "0-30",
+                    "Trigger Condition": "Window-pane feeding; pin-holes; no frass",
+                    "Suspected Pest": "FAW L1-L2",
+                    "Action Required": "Apply Neem oil 5%; set pheromone traps; monitor daily"
+                },
+                {
+                    "Crop DAS": "15-35",
+                    "Trigger Condition": "Frass (sawdust) in whorl; irregular holes; larvae present",
+                    "Suspected Pest": "FAW L3-L4",
+                    "Action Required": "Emamectin Benzoate 4 g/15L in whorl; evening application"
+                },
+                {
+                    "Crop DAS": "30-40",
+                    "Trigger Condition": "FAW larvae > 2 /plant; >15% whorls damaged",
+                    "Suspected Pest": "FAW L4-L6",
+                    "Action Required": "Spray immediately Emamectin or Spinetoram; check resistance history"
+                },
+                {
+                    "Crop DAS": "30-50",
+                    "Trigger Condition": "Shot-hole pattern (regular rows); no frass",
+                    "Suspected Pest": "Stem Borer",
+                    "Action Required": "Carbofuran 3G 5 kg/acre or Chlorantraniliprole 6 3 ml/15L"
+                },
+                {
+                    "Crop DAS": "15-35",
+                    "Trigger Condition": "Soil pits: > 1 white grub per 30 cm cube",
+                    "Suspected Pest": "White Grub",
+                    "Action Required": "Phorate 10G @ 10 kg/acre in furrows; Metarhizium soil drench"
+                },
+                {
+                    "Crop DAS": "15-55",
+                    "Trigger Condition": "Wilting patches; mud tunnels on stern base",
+                    "Suspected Pest": "Termites",
+                    "Action Required": "Chlorpyrifos drench 2.5 ml/L per plant base"
+                },
+                {
+                    "Crop DAS": "V3-V8",
+                    "Trigger Condition": "Aphid colony >200/plant; sooty mold visible",
+                    "Suspected Pest": "Corn Leaf Aphid",
+                    "Action Required": "Thiamethoxam 0.2 g/LI avoid spray during pollination"
+                },
+                {
+                    "Crop DAS": "V1-V6",
+                    "Trigger Condition": "Silvery stippling; > 10 thrips/leaf",
+                    "Suspected Pest": "Thrips",
+                    "Action Required": "Spinosad 45 SC @ 3 ml/15L 2 sprays 7 days apart"
+                },
+                {
+                    "Crop DAS": "40-60",
+                    "Trigger Condition": "Pheromone trap > 15 moths/week; tassel damage",
+                    "Suspected Pest": "FAW",
+                    "Action Required": "Spray Chlorantraniliprole 6 ml or Spinetoram 8 ml/15L"
+                },
+                {
+                    "Crop DAS": "55-75",
+                    "Trigger Condition": "FAW entry holes on cob; silk damage > 5%",
+                    "Suspected Pest": "FAW",
+                    "Action Required": "Spray Emamectin into silk channel; apply at dusk; repeat after 5 days"
+                },
+                {
+                    "Crop DAS": "50-90",
+                    "Trigger Condition": "Entry holes at stem; frass at axil; lodging begins",
+                    "Suspected Pest": "Stem Borer",
+                    "Action Required": "Chlorantraniliprole spray; stake if possible; check for stalk rot"
+                },
+                {
+                    "Crop DAS": "75-100",
+                    "Trigger Condition": "FAW/borer cob damage >15% grain exposed",
+                    "Suspected Pest": "FAW/Borer",
+                    "Action Required": "Harvest early if>25% cobs damaged; last spray Coragen"
+                },
+                {
+                    "Crop DAS": "Any stage",
+                    "Trigger Condition": "Same MoA insecticide used 2+ consecutive sprays",
+                    "Suspected Pest": "Resistance Risk",
+                    "Action Required": "ROTATE MOA class immediately see Section 6 rotation guide"
+                },
+                {
+                    "Crop DAS": "Any stage",
+                    "Trigger Condition": "Biological agent applied within 5 days",
+                    "Suspected Pest": "All Pests",
+                    "Action Required": "No chemical spray; allow bioagent to work; reassess after 7 days"
+                },
+                {
+                    "Crop DAS": "Any stage",
+                    "Trigger Condition": "Natural enemies (Coccinellids/Chelonus) > 1 per 5 plants",
+                    "Suspected Pest": "All Pests",
+                    "Action Required": "Withhold spray; biocontrol providing benefit; monitor only"
+                }
+            ]
+        },
+        {
+            "Section Number": "6",
+            "Title": "Insecticide Resistance Management - Spray Rotation Guide",
+            "Subsections": [
+                {
+                    "Heading": "RESISTANCE WARNING - KARNATAKA 2024",
+                    "Points": [
+                        "FAW populations in Davangere and Dharwad have shown reduced sensitivity to Spinosad (Group 5).",
+                        "Chlorpyrifos resistance confirmed in FAW populations in at least 3 Karnataka districts.",
+                        "Resistance develops rapidly a single season of same-molecule use can select resistant biotypes.",
+                        "Rotate MoA groups per spray; never apply same molecule more than TWICE per season."
+                    ]
+                },
+                {
+                    "Heading": "Insecticide Mode-of-Action (MoA) Classes",
+                    "Table": [
+                        {
+                            "MoA Group": "Group 6",
+                            "Mechanism": "Glutamate-gated CI channel (GluCI)",
+                            "Key Molecules": "Emamectin benzoate",
+                            "Target Pest": "FAW (all stages)",
+                            "Max Sprays/Season": "2"
+                        },
+                        {
+                            "MoA Group": "Group 5",
+                            "Mechanism": "Nicotinic ACh receptor allosteric",
+                            "Key Molecules": "Spinosad, Spinetoram",
+                            "Target Pest": "FAW, Borer, Thrips",
+                            "Max Sprays/Season": "2"
+                        },
+                        {
+                            "MoA Group": "Group 28",
+                            "Mechanism": "Ryanodine receptor (RyR)",
+                            "Key Molecules": "Chlorantraniliprole (Coragen), Flubendiamide",
+                            "Target Pest": "FAW, Borer",
+                            "Max Sprays/Season": "2"
+                        },
+                        {
+                            "MoA Group": "Group 1B",
+                            "Mechanism": "AChE inhibitor (OP)",
+                            "Key Molecules": "Chlorpyrifos, Dimethoate",
+                            "Target Pest": "Multi-pest; soil",
+                            "Max Sprays/Season": "2 (rotate off)"
+                        },
+                        {
+                            "MoA Group": "Group 4A",
+                            "Mechanism": "Nicotinic ACh receptor agonist",
+                            "Key Molecules": "Imidacloprid, Thiamethoxam",
+                            "Target Pest": "Aphids, Shoot Fly",
+                            "Max Sprays/Season": "1 (seed treatment)"
+                        },
+                        {
+                            "MoA Group": "Group 3A",
+                            "Mechanism": "Na channel modulator (Pyrethroid)",
+                            "Key Molecules": "Lambda-cyhalothrin, Cyperm.",
+                            "Target Pest": "Multi-pest",
+                            "Max Sprays/Season": "1 (avoid in monsoon)"
+                        },
+                        {
+                            "MoA Group": "Group 15",
+                            "Mechanism": "Chitin synthesis inhibitor (IGR)",
+                            "Key Molecules": "Novaluron, Lufenuron",
+                            "Target Pest": "FAW eggs and L1-L2",
+                            "Max Sprays/Season": "1-2"
+                        },
+                        {
+                            "MoA Group": "Biological",
+                            "Mechanism": "Various",
+                            "Key Molecules": "Emamectin, NPV, Bt, Spino.",
+                            "Target Pest": "FAW, Borer",
+                            "Max Sprays/Season": "No limit"
+                        }
+                    ]
+                },
+                {
+                    "Heading": "Recommended Spray Rotation Programme Kharif Season",
+                    "Table": [
+                        {
+                            "Spray Number": "Spray 1",
+                            "Timing (DAS)": "20-25 DAS",
+                            "Recommended Product": "Emamectin Benzoate 5 SG @ 4 g/15L",
+                            "MoA Group": "Group 6",
+                            "Target": "FAW L1-L3, Borer"
+                        },
+                        {
+                            "Spray Number": "Spray 2",
+                            "Timing (DAS)": "35-40 DAS",
+                            "Recommended Product": "Spinetoram 11.7 SC @ 8 ml/15L",
+                            "MoA Group": "Group 5",
+                            "Target": "FAW L2-L4, Borer"
+                        },
+                        {
+                            "Spray Number": "Spray 3",
+                            "Timing (DAS)": "50-55 DAS",
+                            "Recommended Product": "Chlorantraniliprole 18.5 SC @ 6 ml15L/",
+                            "MoA Group": "Group 28",
+                            "Target": "FAW L4-L6, Ear protection"
+                        },
+                        {
+                            "Spray Number": "Spray 4*",
+                            "Timing (DAS)": "65-70 DAS",
+                            "Recommended Product": "Flubendiamide 480 SC @ 3 ml/15L",
+                            "MoA Group": "Group 28",
+                            "Target": "Cob/silk FAW protection"
+                        },
+                        {
+                            "Spray Number": "Spray 5*",
+                            "Timing (DAS)": "If needed",
+                            "Recommended Product": "Novaluron 5.25 EC @ 15 ml/15L",
+                            "MoA Group": "Group 15",
+                            "Target": "FAW egg hatch suppression"
+                        }
+                    ],
+                    "Notes": [
+                        "Sprays 4 and 5 only if pheromone trap count remains above threshold after Spray 3.",
+                        "Never apply two Group 28 (diamide) molecules in consecutive sprays even if products differ."
+                    ]
+                },
+                {
+                    "Heading": "Resistance Management Decision Rules",
+                    "Table": [
+                        {
+                            "Condition (IF)": "Same insecticide molecule used in 2 consecutive sprays",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "ROTATE to different MoA group for mandatory"
+                        },
+                        {
+                            "Condition (IF)": "Group 28 molecule used (Coragen/Flubendiamide) AND Another Group 28 planned next spray",
+                            "Severity": "CRITICAL",
+                            "Action (THEN)": "STOP apply Group 6 or Group 5 n rotation vio"
+                        },
+                        {
+                            "Condition (IF)": "Spray applied but FAW mortality < 60% after 72 hrs",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Suspected resistance change Mo art to KVK D"
+                        },
+                        {
+                            "Condition (IF)": "All registered molecules used once already this season",
+                            "Severity": "HIGH",
+                            "Action (THEN)": "Use biological options (NPV+Bt); n on officer for"
+                        },
+                        {
+                            "Condition (IF)": "Biological control agents applied",
+                            "Severity": "MEDIUM",
+                            "Action (THEN)": "No chemical spray for 5 days; allow work; reas-"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

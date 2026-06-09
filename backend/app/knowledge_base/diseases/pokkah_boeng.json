@@ -1,0 +1,94 @@
+{
+  "name": "Pokkah Boeng",
+  "causal_organism": "Fusarium moniliforme (Gibberella fujikuroi) / Fusarium sacchari / Fusarium proliferatum",
+  "crop_affected": "Sugarcane",
+  "symptoms": [
+    "Stage 1 — Chlorotic Phase: Irregular chlorotic (yellow) patches at the base of young emerging leaves",
+    "Stage 2 — Twisted/Wrinkled Phase: Young leaves show characteristic twisting, crumpling, and wrinkling with shortened internodes",
+    "Stage 3 — Knife-Cut Phase: Irregular horizontal notches or cuts ('knife-cut' appearance) across the width of affected leaves",
+    "Stage 4 — Top Rot Phase: Rotting of the growing point (apical meristem) with a foul odor; may kill the entire shoot",
+    "Reddish-brown discoloration and rotting of internal stalk tissues in severely affected plants",
+    "'Bunchy top' or 'crazy top' appearance — crowded short malformed leaves due to collapsed internodes",
+    "Pink to salmon-colored fungal mycelium visible at the base of rotting tissue in moist conditions",
+    "Severe dwarfing and distortion of young shoots; multiple side shoots may emerge giving a bushy look"
+  ],
+  "favorable_conditions": [
+    "Warm temperatures of 25–35°C combined with high humidity (above 85%)",
+    "Excessive rainfall leading to waterlogging in poorly drained soils",
+    "Wet, monsoon-season weather during active vegetative growth of sugarcane",
+    "Physical injuries or wounds on plants from farm machinery, insect borers, or hailstorms",
+    "Over-application of nitrogenous fertilizers promoting lush, succulent growth",
+    "Presence of infected crop debris or Fusarium-infested soil",
+    "Mechanical damage during intercultural operations (earthing-up, weeding)",
+    "Insect borer activity creating entry wounds for the fungus"
+  ],
+  "prevention": [
+    "Use disease-free, healthy planting material — setts from disease-free stools only",
+    "Hot water treatment of setts at 50°C for 2 hours before planting to eliminate internal fungal infection",
+    "Treat setts with Carbendazim 50% WP (0.1% solution) soak for 10–15 minutes before planting",
+    "Ensure proper field drainage to prevent waterlogging and soil saturation",
+    "Practice crop rotation and avoid continuous sugarcane monoculture",
+    "Remove and destroy all infected plant material immediately upon detection",
+    "Avoid mechanical injuries to plants during field operations",
+    "Use resistant or tolerant varieties where available",
+    "Implement integrated pest management to control stalk borers that create fungal entry points",
+    "Avoid excessive nitrogen fertilization; use recommended balanced nutrient schedule"
+  ],
+  "chemical_control": [
+    "Carbendazim 50% WP @ 1.0 g/L water — drench affected stools or spray on young shoots at early stage",
+    "Propiconazole 25% EC @ 1.0 mL/L water — foliar spray on young leaves",
+    "Thiophanate-methyl 70% WP @ 1.0 g/L water — systemic fungicide spray",
+    "Copper oxychloride 50% WP @ 3.0 g/L water — prophylactic protective spray",
+    "Mancozeb 75% WP @ 2.5 g/L water — contact fungicide spray",
+    "Hexaconazole 5% SC @ 2.0 mL/L water — systemic spray on young growing shoots",
+    "Tebuconazole 25.9% EC @ 1.0 mL/L water — effective at early infection stage",
+    "Spray at 15-day intervals during high disease pressure (monsoon period)"
+  ],
+  "kannada_translation": {
+    "name": "ಪೊಕ್ಕಾ ಬೋಯಿಂಗ್ ರೋಗ (Pokkah Boeng)",
+    "causal_organism": "ಫ್ಯೂಸೇರಿಯಂ ಮೊನಿಲಿಫಾರ್ಮ್ / ಫ್ಯೂಸೇರಿಯಂ ಸ್ಯಾಕ್ಕರಿ ಎಂಬ ಶಿಲೀಂಧ್ರ",
+    "crop_affected": "ಕಬ್ಬು",
+    "symptoms": [
+      "ಹಂತ 1 — ಕ್ಲೋರೋಟಿಕ್ ಹಂತ: ಚಿಗುರುತ್ತಿರುವ ಎಳೆ ಎಲೆಗಳ ತಳಭಾಗದಲ್ಲಿ ಅನಿಯಮಿತ ಹಳದಿ (ಕ್ಲೋರೋಟಿಕ್) ಚುಕ್ಕೆಗಳು",
+      "ಹಂತ 2 — ತಿರುಚಿದ/ಸುಕ್ಕಾದ ಹಂತ: ಎಳೆ ಎಲೆಗಳು ವಿಶಿಷ್ಟವಾಗಿ ತಿರುಚಿಕೊಂಡು, ಮಡಿಚಿ ಸುಕ್ಕುಗಟ್ಟುತ್ತವೆ; ಗಣ್ಣುಗಳು ಕಿರಿದಾಗುತ್ತವೆ",
+      "ಹಂತ 3 — ಚಾಕು-ಕಟ್ ಹಂತ: ಸೋಂಕಿತ ಎಲೆಗಳ ಅಗಲದಾದ್ಯಂತ ಅನಿಯಮಿತ ಅಡ್ಡ ಕಟ್ ಅಥವಾ ಗಾಯ — 'ಚಾಕು ಕಟ್' ನೋಟ",
+      "ಹಂತ 4 — ತುದಿ ಕೊಳೆ ಹಂತ: ಬೆಳೆಯುವ ತುದಿ ದುರ್ವಾಸನೆಯೊಂದಿಗೆ ಕೊಳೆಯುತ್ತದೆ; ಇಡೀ ಚಿಗುರು ಸಾಯಬಹುದು",
+      "ತೀವ್ರ ಸೋಂಕಿತ ಕಾಂಡಗಳ ಒಳಭಾಗದಲ್ಲಿ ಕೆಂಪು-ಕಂದು ಬಣ್ಣದ ವಿವರ್ಣತೆ ಮತ್ತು ಕೊಳೆ",
+      "ಕುಸಿದ ಗಣ್ಣುಗಳು ಮತ್ತು ವಿರೂಪ ಎಲೆಗಳಿಂದ 'ಗೊಂಚಲು ತುದಿ' ಅಥವಾ 'ಹುಚ್ಚು ತುದಿ' ನೋಟ",
+      "ಒದ್ದೆ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ಕೊಳೆಯುವ ಅಂಗಾಂಶದ ತಳಭಾಗದಲ್ಲಿ ಗುಲಾಬಿ ಬಣ್ಣದ ಶಿಲೀಂಧ್ರ ಬೆಳವಣಿಗೆ ಕಾಣಿಸುತ್ತದೆ",
+      "ತೀವ್ರ ಸೋಂಕಿನಲ್ಲಿ ಎಳೆ ಚಿಗುರುಗಳ ಕುಬ್ಜತ್ವ ಮತ್ತು ವಿರೂಪತೆ; ಅನೇಕ ಪಾರ್ಶ್ವ ಚಿಗುರುಗಳು ಕಂಡು ಪೊದೆಯಂತೆ ಕಾಣಿಸಬಹುದು"
+    ],
+    "favorable_conditions": [
+      "25–35°C ಬೆಚ್ಚಗಿನ ತಾಪಮಾನ ಮತ್ತು 85% ಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಆರ್ದ್ರತೆ",
+      "ಕಳಪೆ ಒಳಚರಂಡಿ ಇರುವ ಭೂಮಿಯಲ್ಲಿ ನೀರು ನಿಲ್ಲುವಷ್ಟು ಅತಿಯಾದ ಮಳೆ",
+      "ಕಬ್ಬಿನ ಸಕ್ರಿಯ ಸಸ್ಯಕ ಬೆಳವಣಿಗೆ ಸಮಯದಲ್ಲಿ ತೇವ ಮಾನ್ಸೂನ್ ವಾತಾವರಣ",
+      "ಕೃಷಿ ಯಂತ್ರಗಳು, ಕೀಟ ಕೊರಕಗಳು ಅಥವಾ ಆಲಿಕಲ್ಲಿನಿಂದ ಸಸ್ಯಗಳಿಗೆ ಭೌತಿಕ ಗಾಯಗಳು",
+      "ತುಂಬಾ ಸೊಂಪಾದ ಬೆಳವಣಿಗೆ ಉತ್ತೇಜಿಸುವ ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರ ಬಳಕೆ",
+      "ಹೊಲದಲ್ಲಿ ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳ ಅಥವಾ ಫ್ಯೂಸೇರಿಯಂ ಕಲುಷಿತ ಮಣ್ಣಿನ ಇರುವಿಕೆ",
+      "ಮಣ್ಣು ಏರಿಸುವಿಕೆ ಮತ್ತು ಕಳೆ ತೆಗೆಯುವ ಅಂತರ ಬೇಸಾಯ ಕಾರ್ಯಗಳ ಸಮಯದಲ್ಲಿ ಯಾಂತ್ರಿಕ ಹಾನಿ",
+      "ಶಿಲೀಂಧ್ರ ಪ್ರವೇಶಕ್ಕೆ ದ್ವಾರ ಸೃಷ್ಟಿಸುವ ಕಾಂಡ ಕೊರೆಯುವ ಕೀಟಗಳ ಚಟುವಟಿಕೆ"
+    ],
+    "prevention": [
+      "ರೋಗ ಮುಕ್ತ ಆರೋಗ್ಯಕರ ನಾಟಿ ಸಾಮಗ್ರಿ ಬಳಸಿ — ರೋಗ ಮುಕ್ತ ಸಸ್ಯಗಳಿಂದ ಮಾತ್ರ ಸೆಟ್‌ಗಳನ್ನು ತೆಗೆಯಿರಿ",
+      "ನಾಟಿಗೆ ಮೊದಲು 50°C ಬಿಸಿ ನೀರಿನಲ್ಲಿ 2 ಗಂಟೆ ಸೆಟ್‌ಗಳನ್ನು ಅದ್ದಿ ಒಳ ಶಿಲೀಂಧ್ರ ಸೋಂಕು ನಿವಾರಿಸಿ",
+      "ನಾಟಿಗೆ ಮೊದಲು ಕಾರ್ಬೆಂಡಾಝಿಮ್ 50% WP (0.1% ದ್ರಾವಣ) ನಲ್ಲಿ 10–15 ನಿಮಿಷ ಅದ್ದಿ ಸಂಸ್ಕರಿಸಿ",
+      "ನೀರು ನಿಲ್ಲದಂತೆ ಹೊಲದಲ್ಲಿ ಸರಿಯಾದ ಒಳಚರಂಡಿ ವ್ಯವಸ್ಥೆ ಮಾಡಿ",
+      "ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ ಮತ್ತು ನಿರಂತರ ಕಬ್ಬು ಏಕ ಬೆಳೆ ತಪ್ಪಿಸಿ",
+      "ಸೋಂಕು ಕಂಡ ತಕ್ಷಣ ಸೋಂಕಿತ ಸಸ್ಯ ಅವಶೇಷಗಳನ್ನು ತೆಗೆದು ನಾಶಪಡಿಸಿ",
+      "ಕ್ಷೇತ್ರ ಕಾರ್ಯಗಳ ಸಮಯದಲ್ಲಿ ಸಸ್ಯಗಳಿಗೆ ಯಾಂತ್ರಿಕ ಗಾಯಗಳಾಗದಂತೆ ಎಚ್ಚರ ವಹಿಸಿ",
+      "ಲಭ್ಯವಿದ್ದರೆ ನಿರೋಧಕ ಅಥವಾ ಸಹನಶೀಲ ತಳಿಗಳನ್ನು ಬಳಸಿ",
+      "ಶಿಲೀಂಧ್ರ ಪ್ರವೇಶಕ್ಕೆ ಗಾಯ ಮಾಡುವ ಕಾಂಡ ಕೊರೆಯುವ ಕೀಟಗಳ ನಿಯಂತ್ರಣಕ್ಕೆ ಸಮಗ್ರ ಕೀಟ ನಿಯಂತ್ರಣ ಅಳವಡಿಸಿ",
+      "ಅತಿಯಾದ ಸಾರಜನಕ ಗೊಬ್ಬರ ತಪ್ಪಿಸಿ; ಶಿಫಾರಸು ಮಾಡಿದ ಸಮತೋಲಿತ ಪೋಷಕಾಂಶ ವೇಳಾಪಟ್ಟಿ ಅನುಸರಿಸಿ"
+    ],
+    "chemical_control": [
+      "ಕಾರ್ಬೆಂಡಾಝಿಮ್ 50% WP @ 1.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ಆರಂಭಿಕ ಹಂತದಲ್ಲಿ ಸೋಂಕಿತ ಬುಡ ತೋಯಿಸಿ ಅಥವಾ ಎಳೆ ಚಿಗುರಿಗೆ ಸಿಂಪಡಿಸಿ",
+      "ಪ್ರೊಪಿಕೊನಾಝೋಲ್ 25% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು — ಎಳೆ ಎಲೆಗಳ ಮೇಲೆ ಸಿಂಪರಣೆ",
+      "ಥಯೋಫನೇಟ್-ಮೀಥೈಲ್ 70% WP @ 1.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ವ್ಯವಸ್ಥಾಪಕ ಶಿಲೀಂಧ್ರ ನಾಶಕ ಸಿಂಪರಣೆ",
+      "ಕಾಪರ್ ಆಕ್ಸಿಕ್ಲೋರೈಡ್ 50% WP @ 3.0 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ಮುನ್ನೆಚ್ಚರಿಕೆ ರಕ್ಷಣಾ ಸಿಂಪರಣೆ",
+      "ಮ್ಯಾಂಕೋಝೆಬ್ 75% WP @ 2.5 ಗ್ರಾಂ/ಲೀಟರ್ ನೀರು — ಸಂಪರ್ಕ ಶಿಲೀಂಧ್ರ ನಾಶಕ ಸಿಂಪರಣೆ",
+      "ಹೆಕ್ಸಾಕೊನಾಝೋಲ್ 5% SC @ 2.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು — ಚಿಗುರುತ್ತಿರುವ ಎಳೆ ತುದಿಗಳ ಮೇಲೆ ವ್ಯವಸ್ಥಾಪಕ ಸಿಂಪರಣೆ",
+      "ಟೆಬ್ಯುಕೊನಾಝೋಲ್ 25.9% EC @ 1.0 ಮಿ.ಲೀ/ಲೀಟರ್ ನೀರು — ಆರಂಭಿಕ ಸೋಂಕಿನ ಹಂತದಲ್ಲಿ ಪರಿಣಾಮಕಾರಿ",
+      "ರೋಗದ ಒತ್ತಡ ಹೆಚ್ಚಿನ ಅವಧಿಯಲ್ಲಿ (ಮಾನ್ಸೂನ್ ಕಾಲ) ಪ್ರತಿ 15 ದಿನಗಳಿಗೊಮ್ಮೆ ಸಿಂಪಡಿಸಿ"
+    ]
+  }
+}

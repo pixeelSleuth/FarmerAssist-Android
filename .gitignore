@@ -1,0 +1,156 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+data/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these written to a standalone folder, but they can contain secrets
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translation files
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkouts
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or app, you might want to share your .python-version if you use pyenv
+#   to pin a Python version for development, or you might want to ignore it.
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if used with a venv, it should be ignored:
+# .venv
+# pip-wheel-metadata/
+
+# poetry
+#   Using Poetry, it's recommended to include poetry.lock in version control.
+#   poetry.lock
+#   If poetry creates local virtualenvs, they are in:
+#   .venv
+
+# pdm
+#   If pdm creates local virtualenvs, they are in:
+#   .venv
+#   .pdm-plugins/
+
+# PIP / Virtual Env
+venv/
+.venv/
+env/
+.env
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-Specific Ignores
+
+# Backend-specific files
+backend/.env
+backend/.cache.sqlite
+backend/__pycache__/
+backend/generated_audio/
+backend/uploads/
+backend/app/firebase/serviceAccount.json
+
+# Mobile/Flutter paths (integrated from mobile/.gitignore)
+mobile/.dart_tool/
+mobile/.flutter-plugins-dependencies
+mobile/.idea/
+mobile/.metadata
+mobile/build/
+mobile/android/app/debug/
+mobile/android/app/profile/
+mobile/android/app/release/
+mobile/*.iml
+mobile/.pub-cache/
+mobile/.pub/
+mobile/ios/Flutter/.last_build_id
+mobile/doc/api/
+mobile/coverage/
